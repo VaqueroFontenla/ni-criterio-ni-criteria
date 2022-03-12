@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "category": "libros",
+    "name": "Ofendiditos",
+    "description": "",
+    "recommender": "Paz",
+    "link": "https://traficantes.net/libros/ofendiditos",
+    "image": "ofendiditos.jpeg"
+  }
+]
