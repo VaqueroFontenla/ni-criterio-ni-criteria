@@ -143,7 +143,7 @@ export const StyledJumbo = styled.div`
   } ;
 `
 
-export const StyledProducts = styled.div`
+export const StyledSuggestions = styled.div`
   background-color: ${colors.softGray};
   display: flex;
   flex-direction: column;
