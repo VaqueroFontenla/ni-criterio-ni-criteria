@@ -6,15 +6,15 @@
     "description": "",
     "recommender": "Paz",
     "link": "https://traficantes.net/libros/ofendiditos",
-    "image": "src/images/ofendiditos.jpeg"
+    "image": "ofendiditos.jpeg"
   },
   {
-    "id": 1,
+    "id": 2,
     "category": "libros",
     "name": "La palabra qe empieza por A",
     "description": "",
     "recommender": "Paz",
     "link": "https://traficantes.net/libros/la-palabra-que-empieza-por",
-    "image": "src/images/la-palabra-que-empieza-por-a.jpeg"
+    "image": "la-palabra-que-empieza-por-a.jpeg"
   }
 ]

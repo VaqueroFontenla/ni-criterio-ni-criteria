@@ -1,6 +1,6 @@
 import * as React from "react"
 import { graphql } from "gatsby"
-import { Jumbo, Suggestions, Seo } from "../components"
+import { Jumbo, Suggestions, SEO } from "../components"
 
 export const query = graphql`
   query GET_DATA {
@@ -26,14 +26,29 @@ export const query = graphql`
         }
       }
     }
+    allFile(filter: { sourceInstanceName: { eq: "images" } }) {
+      edges {
+        node {
+          relativePath
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+      }
+    }
   }
 `
 
 const IndexPage = ({ data }) => (
   <>
-    <Seo title="Home" />
+    <SEO title="Home" />
     <Jumbo description={data.allSite.edges[0].node.siteMetadata.description} />
-    <Suggestions suggestions={data.allSuggestionsJson.edges} />
+    <Suggestions
+      suggestions={data.allSuggestionsJson.edges}
+      images={data.allFile.edges}
+    />
   </>
 )
 
