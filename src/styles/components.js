@@ -165,14 +165,16 @@ export const StyledSuggestions = styled.div`
     flex-direction: column;
     background: white;
     align-items: center;
+    row-gap: 1rem;
     padding-bottom: 1rem;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    text-align: center;
     p {
       margin: 0;
       color: ${colors.green};
-      font-weight: 500;
-      font-size: 1.2rem;
+      font-weight: bold;
+      font-size: 1.5rem;
     }
     small {
       color: ${colors.darkBlue};
@@ -182,7 +184,7 @@ export const StyledSuggestions = styled.div`
     a {
       text-decoration: none;
       color: ${colors.darkBlue};
-      font-size: 0.8rem;
+      font-size: 1rem;
       border-bottom: 3px solid ${colors.green};
       span {
         color: ${colors.green};

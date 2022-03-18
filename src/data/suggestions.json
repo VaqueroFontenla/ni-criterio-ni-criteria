@@ -11,10 +11,10 @@
   {
     "id": 2,
     "category": "libros",
-    "name": "La palabra qe empieza por A",
+    "name": "La palabra que empieza por A",
     "description": "",
     "recommender": "Paz",
     "link": "https://traficantes.net/libros/la-palabra-que-empieza-por",
-    "image": "la-palabra-que-empieza-por-a.jpeg"
+    "image": "la-palabra-que-empieza-por-a.jpg"
   }
 ]
