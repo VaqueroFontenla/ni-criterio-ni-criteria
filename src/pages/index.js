@@ -18,10 +18,6 @@ export const query = graphql`
         node {
           id
           name
-          category
-          description
-          recommender
-          link
           image
         }
       }
@@ -31,7 +27,7 @@ export const query = graphql`
         node {
           relativePath
           childImageSharp {
-            fluid(maxWidth: 2000) {
+            fluid(maxWidth: 1000) {
               ...GatsbyImageSharpFluid
             }
           }
@@ -41,15 +37,26 @@ export const query = graphql`
   }
 `
 
-const IndexPage = ({ data }) => (
-  <>
-    <SEO title="Home" />
-    <Jumbo description={data.allSite.edges[0].node.siteMetadata.description} />
-    <Suggestions
-      suggestions={data.allSuggestionsJson.edges}
-      images={data.allFile.edges}
-    />
-  </>
-)
+const IndexPage = ({ data }) => {
+  const suggestions = data.allSuggestionsJson.edges.map(({ node }) => {
+    const imageIndex = data.allFile.edges.findIndex(
+      image => image.node.relativePath === node.image
+    )
+    return {
+      ...node,
+      image: data.allFile.edges[imageIndex].node,
+    }
+  })
+
+  return (
+    <>
+      <SEO title="Home" />
+      <Jumbo
+        description={data.allSite.edges[0].node.siteMetadata.description}
+      />
+      <Suggestions suggestions={suggestions} />
+    </>
+  )
+}
 
 export default IndexPage
