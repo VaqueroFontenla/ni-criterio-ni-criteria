@@ -3,6 +3,7 @@
     "id": 1,
     "category": "libros",
     "name": "Ofendiditos",
+    "autor": "Lucía Lijtmaer",
     "description": "",
     "recommender": "Paz",
     "link": "https://traficantes.net/libros/ofendiditos",
@@ -12,9 +13,10 @@
     "id": 2,
     "category": "libros",
     "name": "La palabra que empieza por A",
+    "autor": "Elisabeth Casillas",
     "description": "",
     "recommender": "Paz",
     "link": "https://traficantes.net/libros/la-palabra-que-empieza-por",
-    "image": "la-palabra-que-empieza-por-a.jpg"
+    "image": "la-palabra-que-empieza-por-a.webp"
   }
 ]

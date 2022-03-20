@@ -24,18 +24,20 @@ export default function SuggestionDetail({
   return (
     <StyledProductDetail>
       <SEO title={name} />
-      <Img
-        fluid={image.childImageSharp.fluid}
-        style={{ width: "100%", height: "350px" }}
-        alt={name}
-      />
-      <div>
-        <Tag>Popular</Tag>
-        <h2>{name}</h2>
-        <b>USD</b>
+      <Suggestion>
+        <Img
+          fluid={image.childImageSharp.fluid}
+          style={{ width: "100%", height: "100%" }}
+          alt={name}
+        />
+        <SuggestionInfo>
+          <Tag>{category}</Tag>
+          <h2>{name}</h2>
+          <b>USD</b>
 
-        <p>Cantidad:</p>
-      </div>
+          <p>Cantidad:</p>
+        </SuggestionInfo>
+      </Suggestion>
     </StyledProductDetail>
   )
 }

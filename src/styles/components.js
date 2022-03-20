@@ -153,51 +153,10 @@ export const StyledSuggestions = styled.div`
     color: ${colors.darkBlue};
     font-size: 2rem;
   }
-  & img {
-    width: 100%;
-    height: 400px;
-    object-fit: cover;
-    object-position: center;
-    margin: 0;
-  }
-  article {
-    display: flex;
-    flex-direction: column;
-    background: white;
-    align-items: center;
-    row-gap: 1rem;
-    padding-bottom: 1rem;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-    text-align: center;
-    p {
-      margin: 0;
-      color: ${colors.green};
-      font-weight: bold;
-      font-size: 1.5rem;
-    }
-    small {
-      color: ${colors.darkBlue};
-      font-weight: 500;
-      font-size: 1.2rem;
-    }
-    a {
-      text-decoration: none;
-      color: ${colors.darkBlue};
-      font-size: 1rem;
-      border-bottom: 3px solid ${colors.green};
-      span {
-        color: ${colors.green};
-      }
-    }
-    &:hover {
-      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
-        0 10px 10px rgba(0, 0, 0, 0.22);
-    }
-  }
   section {
     display: grid;
     grid-gap: 2rem;
+    align-items: flex-start;
     width: 100%;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     padding: 0;
@@ -206,6 +165,51 @@ export const StyledSuggestions = styled.div`
       grid-gap: 3rem;
       padding: 0 10rem;
     `};
+  }
+`
+
+export const Suggestion = styled.article`
+  display: flex;
+  flex-direction: column;
+  background: white;
+  align-items: center;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  &:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+`
+export const SuggestionInfo = styled.div`
+  display: grid;
+  row-gap: 1rem;
+
+  padding: 1rem;
+  width: 100%;
+
+  > div {
+    p {
+      color: ${colors.green};
+      font-weight: bold;
+      font-size: 1.5rem;
+      margin: 0;
+    }
+    small {
+      color: ${colors.darkBlue};
+      font-weight: 500;
+      font-size: 1rem;
+    }
+  }
+
+  a {
+    justify-self: end;
+    text-decoration: none;
+    color: ${colors.darkBlue};
+    font-size: 1rem;
+    text-align: end;
+    border-bottom: 3px solid ${colors.green};
+    span {
+      color: ${colors.green};
+    }
   }
 `
 
