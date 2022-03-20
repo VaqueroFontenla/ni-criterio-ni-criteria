@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Ni criterio ni criteria`,
-    description: `Recomendaciones de entretenimiento cultural de gente 'sin citerio'`,
+    description: `Recomendaciones de entretenimiento cultural de gente 'sin criterio'`,
     author: `@Loreto Vaquero`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
@@ -42,11 +42,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [
-          `roboto mono`,
-          `muli\:300,400,400i,700`, // you can also specify font weights and styles
-        ],
-        display: "swap",
+        fonts: [`Manrope: 400, 700`],
+        display: `swap`,
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

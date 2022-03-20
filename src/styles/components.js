@@ -4,6 +4,7 @@ import { above } from "./index"
 export const colors = {
   green: "#98ca3f",
   orange: "#f8b71c",
+  black: "#171717",
   gray: "#969696",
   darkBlue: "#1c3643",
   lightBlue: "#1e5372",
@@ -66,7 +67,7 @@ export const StyledJumbo = styled.div`
   justify-content: center;
   padding: 2rem 2rem;
   color: white;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
   overflow: hidden;
   position: relative;
 
@@ -74,46 +75,17 @@ export const StyledJumbo = styled.div`
     padding: 1rem;
     width: 35vw;
   }
-  & h2 {
-    margin: 0;
-    font-weight: 500;
+  & span {
+    font-weight: 700;
     font-size: 1rem;
   }
-  & small {
-    font-weight: 100;
-    font-size: 0.6rem;
-  }
-  & img {
-    width: 35vw;
-  }
+
   ${above.medium`
     padding: 2rem 4rem;
     flex-direction: row;
-    & h2 {
-      font-size: 1rem;
-    };
-    & small{
-      font-size: 0.8rem;
-    };
-  `}
-  ${above.mediumL`
-    padding: 2rem 4rem;
-    flex-direction: row;
-    & h2 {
-      font-size: 1rem;
-    };
-    & small{
-      font-size: 0.8rem;
-    };
   `}
   ${above.large`
     padding: 2rem 10rem;
-    flex-direction: row;
-    & h2 {
-      margin: 0;
-      font-weight: 500;
-      font-size: 2rem;
-    };
   `}
 
   &:before {
@@ -137,7 +109,7 @@ export const StyledJumbo = styled.div`
     `}
     ${above.large`
       width: 110vw;
-      height: 52vw;
+      height: 32vw;
       top: -66%;
     `}
   } ;
@@ -148,6 +120,7 @@ export const StyledSuggestions = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  row-gap: 1rem;
   padding: 2rem 1rem 5rem 1rem;
   h2 {
     color: ${colors.darkBlue};
@@ -168,18 +141,19 @@ export const StyledSuggestions = styled.div`
   }
 `
 
-export const Suggestion = styled.article`
+export const StyledSuggestion = styled.article`
   display: flex;
   flex-direction: column;
   background: white;
   align-items: center;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  border-radius: 0.25rem;
   &:hover {
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   }
 `
-export const SuggestionInfo = styled.div`
+export const StyledSuggestionInfo = styled.div`
   display: grid;
   row-gap: 1rem;
 
@@ -213,61 +187,70 @@ export const SuggestionInfo = styled.div`
   }
 `
 
-export const StyledProductDetail = styled.div`
+export const StyledSuggestionDetailWrapper = styled.div`
+  display: grid;
+  row-gap: 1rem;
+  grid-template-rows: auto 1fr;
+  align-items: start;
+
   padding: 1rem;
-  display: flex;
-  flex-direction: column;
-  text-align: justify;
-  height: 82vh;
-  img {
-    width: 100%;
-    object-fit: cover;
-    object-position: center;
-    margin: 0;
-  }
-  p {
-    color: #171717;
-    font-weight: 500;
-    margin: 0;
-    font-size: 0.9rem;
-  }
-  & b {
-    color: ${colors.green};
-    font-size: 1.5rem;
-    margin: 0;
-    font-weight: 800;
-  }
-  h2,
-  h3 {
-    margin: 0;
-  }
-  small {
-    margin: 0;
-    color: #505050;
-    text-align: justify;
-  }
-  div {
-    img {
-      width: 20px;
-      margin: 0.5rem 0;
-      display: block;
-      fill: red;
+
+  a {
+    justify-self: start;
+    text-decoration: none;
+    color: ${colors.black};
+    border-bottom: 3px solid ${colors.green};
+
+    span {
+      font-size: 2rem;
+      color: ${colors.green};
     }
+
+    ${above.mediumL`
+    justify-self: end;
+  `}
   }
-  ${above.medium`
-    padding: 1rem 3rem;
-    flex-direction: column;
-    img{
-      margin-right: 2rem;
-    }
-    `}
+
+  ${above.mediumL`
+  padding: 1rem 3rem;
+
+  `}
   ${above.large`
-    flex-direction: row;
-    height: 82vh;
     padding: 2rem 10rem;
   `}
 `
+export const StyledSuggestionDetail = styled.div`
+  ${above.mediumL`
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  `}
+`
+export const StyledSuggestionDetailInfo = styled.div`
+  display: grid;
+  row-gap: 1rem;
+  align-content: start;
+  padding: 2rem 0;
+  > span {
+    justify-self: start;
+    align-self: center;
+  }
 
+  > div > span {
+    font-weight: 700;
+  }
+
+  ${above.mediumL`
+    padding: 2rem;
+  `}
+`
+
+export const StyledSuggestionDetailDescription = styled.div`
+  display: grid;
+  row-gap: 0.5rem;
+  > span {
+    font-weight: 700;
+  }
+`
 export const StyledCart = styled.div`
   padding: 1rem;
   height: 80vh;
@@ -309,30 +292,6 @@ export const StyledCart = styled.div`
   `}
 `
 
-export const MenuItem = styled.li`
-  margin: 0;
-  color: white;
-  font-size: 1.3rem;
-  font-weight: 100;
-  padding: ${({ margin }) => (margin ? "0 13px 0 13px" : "0 0 0 13px")};
-  a {
-    color: white;
-    text-decoration: none;
-  }
-  & img {
-    margin-right: 5px;
-    width: 0.4rem;
-  }
-  ${above.medium`
-    border-right: ${({ margin }) => (margin ? "1px solid white" : "")};
-    padding: ${({ margin }) => (margin ? "0 26px 0 26px" : "0 0 0 26px")};
-    & img{
-      margin-right: 5px; 
-      width: 0.7rem;
-    }
-  `}
-`
-
 export const Footer = styled.footer`
   background-color: ${colors.darkBlue};
   color: white;
@@ -353,9 +312,9 @@ export const Tag = styled.span`
   padding: 0.3rem 1.5rem;
   background-color: ${colors.gray};
   display: inline-block;
-  margin: 0.5rem 0;
   color: white;
   border-radius: 5px;
+  font-weight: 700;
 `
 
 export const SizeButton = styled.button`

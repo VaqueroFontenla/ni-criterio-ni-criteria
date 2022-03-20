@@ -1,4 +1,5 @@
 import { css, createGlobalStyle } from "styled-components"
+import { reset } from "./reset"
 
 export const size = {
   small: 400,
@@ -17,12 +18,25 @@ export const above = Object.keys(size).reduce((acc, label) => {
 }, {})
 
 export const GlobalStyles = createGlobalStyle`
+  ${reset};
+  
   .___gatsby{
     position: absolute;
   }
-  html{
-      font-family: 'Roboto Mono',
+  body{
+    font-family: "Manrope", sans-serif;
+    font-size: 16px; 
+    color: #171717;
   }
+
+  h1 {
+    margin: 0; 
+  }
+
+  h2 {
+    margin: 0;
+  }
+
   main{
     padding-top: 3.5rem;
   }

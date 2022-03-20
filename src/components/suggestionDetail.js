@@ -1,13 +1,12 @@
-import React from "react"
+import { Link } from "gatsby"
 import Img from "gatsby-image"
+import React from "react"
 import {
+  StyledSuggestionDetail,
+  StyledSuggestionDetailDescription,
+  StyledSuggestionDetailInfo,
   Tag,
-  SizeButton,
-  QtyButton,
-  SizeSelect,
-  Button,
-  StyledProductDetail,
-  QtySelect,
+  StyledSuggestionDetailWrapper,
 } from "../styles/components"
 import { SEO } from "./"
 
@@ -20,24 +19,34 @@ export default function SuggestionDetail({
   link,
   image,
 }) {
-  console.log(image)
   return (
-    <StyledProductDetail>
-      <SEO title={name} />
-      <Suggestion>
+    <StyledSuggestionDetailWrapper>
+      <Link to="/">
+        <span>&#8592;</span>Volver al catálogo
+      </Link>
+      <StyledSuggestionDetail>
+        <SEO title={name} />
         <Img
           fluid={image.childImageSharp.fluid}
           style={{ width: "100%", height: "100%" }}
           alt={name}
         />
-        <SuggestionInfo>
-          <Tag>{category}</Tag>
-          <h2>{name}</h2>
-          <b>USD</b>
+        <StyledSuggestionDetailInfo>
+          <h1>
+            {name} <h2>{`[por ${recommender}]`}</h2>
+          </h1>
 
-          <p>Cantidad:</p>
-        </SuggestionInfo>
-      </Suggestion>
-    </StyledProductDetail>
+          <Tag>{category}</Tag>
+          <StyledSuggestionDetailDescription>
+            <span>Descripción</span>
+            <p>{description}</p>
+          </StyledSuggestionDetailDescription>
+          <div>
+            <span>Donde: </span>
+            <a href={link}>{name}</a>
+          </div>
+        </StyledSuggestionDetailInfo>
+      </StyledSuggestionDetail>
+    </StyledSuggestionDetailWrapper>
   )
 }

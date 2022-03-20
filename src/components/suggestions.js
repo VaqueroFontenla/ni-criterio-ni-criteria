@@ -2,8 +2,8 @@ import React from "react"
 import { Link } from "gatsby"
 import {
   StyledSuggestions,
-  SuggestionInfo,
-  Suggestion,
+  StyledSuggestionInfo,
+  StyledSuggestion,
 } from "../styles/components"
 import Img from "gatsby-image"
 
@@ -13,13 +13,13 @@ export default function Suggestions({ suggestions }) {
       <h2>Recomendaciones</h2>
       <section>
         {suggestions.map(suggestion => (
-          <Suggestion key={suggestion.id}>
+          <StyledSuggestion key={suggestion.id}>
             <Img
               fluid={suggestion.image.childImageSharp.fluid}
               style={{ width: "100%", maxHeight: "100%" }}
               alt={suggestion.name}
             />
-            <SuggestionInfo>
+            <StyledSuggestionInfo>
               <div>
                 <p>{suggestion.name}</p>
                 <small>{suggestion.autor}</small>
@@ -27,8 +27,8 @@ export default function Suggestions({ suggestions }) {
               <Link to={`/${suggestion.id}`}>
                 Ver detalle <span>↪ </span>
               </Link>
-            </SuggestionInfo>
-          </Suggestion>
+            </StyledSuggestionInfo>
+          </StyledSuggestion>
         ))}
       </section>
     </StyledSuggestions>
