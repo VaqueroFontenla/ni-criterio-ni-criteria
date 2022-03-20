@@ -27,6 +27,7 @@ export const GlobalStyles = createGlobalStyle`
     font-family: "Manrope", sans-serif;
     font-size: 16px; 
     color: #171717;
+    background-color:#f6f8f9;
   }
 
   h1 {

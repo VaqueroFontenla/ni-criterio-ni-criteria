@@ -70,17 +70,21 @@ export const StyledJumbo = styled.div`
   margin-bottom: 2rem;
   overflow: hidden;
   position: relative;
-
   div {
     padding: 1rem;
-    width: 35vw;
   }
   & span {
     font-weight: 700;
     font-size: 1rem;
   }
-
+  & img {
+    width: 35vw;
+  }
   ${above.medium`
+    padding: 2rem 4rem;
+    flex-direction: row;
+  `}
+  ${above.mediumL`
     padding: 2rem 4rem;
     flex-direction: row;
   `}
@@ -96,21 +100,16 @@ export const StyledJumbo = styled.div`
     position: absolute;
     transform: rotate(-19deg);
     border-radius: 35%;
-    top: -25%;
-    width: 120%;
-    height: 15rem;
+    top: -32%;
+    width: 110%;
+    height: 20rem;
     ${above.medium`
       height: 20rem;
-      top: -50%;
-    `}
-    ${above.mediumL`
-      height: 30rem;
-      top: -60%;
     `}
     ${above.large`
-      width: 110vw;
+      width: 160vw;
       height: 32vw;
-      top: -66%;
+      top: -86%;
     `}
   } ;
 `
