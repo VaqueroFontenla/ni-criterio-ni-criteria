@@ -21,7 +21,7 @@ export const GlobalStyles = createGlobalStyle`
     position: absolute;
   }
   html{
-      font-family: 'Roboto',
+      font-family: 'Roboto Mono',
   }
   main{
     padding-top: 3.5rem;
