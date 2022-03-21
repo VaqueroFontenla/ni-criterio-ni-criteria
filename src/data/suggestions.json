@@ -31,24 +31,25 @@
   },
   {
     "id": 4,
-    "category": "películas/series",
+    "category": "películas/series/documentales",
     "name": "Le bal des folles",
     "autor": "Mélanie Laurent",
     "description": "París. 1885. Eugénie, una mujer joven y apasionada descubre que tiene el poder especial de oír a los muertos. Cuando su familia descubre su secreto, la llevan al hospital Pitié Salpétrière, una clínica neurológica dirigida por el famoso profesor y pionero de la neurología Dr. Charcot, en la que se internan mujeres diagnosticadas de histeria, locura, epilepsia y otras enfermedades mentales. Su destino se entrelaza con el de Geneviève, una enfermera del hospital a quién la vida se le está pasando de largo. Su encuentro cambiará el futuro de ambas mientras se preparan para el 'Bal des folles' que organiza anualmente el hospital.",
     "recommender": "Loretus",
     "link": "https://www.primevideo.com/detail/0I5ATVSGSUYORJR7Q7G4VDYWGA/ref=atv_hm_hom_1_c_r1Fy1u_3_1?language=fr_FR",
-    "image": "le-bal-des-folles.webp",
+    "image": "le-bal-des-folles.webp"
   },
   {
     "id": 5,
-    "category": "películas/series",
+    "category": "películas/series/documentales",
     "name": "Fue la mano de Dios",
     "autor": "Óscar Paolo Sorrentino",
-    "description": "El oscarizado guionista y director Paolo Sorrentino presenta la historia de un chico, Fabietto Schisa (Filippo Scotti), en el turbulento Nápoles de los años ochenta. En "Fue la mano de Dios", hay lugar para alegres sorpresas, como la llegada del legendario futbolista Diego Maradona, y para una tragedia igual de imprevista. El destino interpreta su papel, la alegría y la desdicha se entrelazan y el futuro de Fabietto echa a rodar. Sorrentino vuelve a la ciudad que lo vio nacer para contar su historia más personal: un relato sobre el destino y la familia, los deportes y el cine, el amor y la pérdida.",
+    "description": "El oscarizado guionista y director Paolo Sorrentino presenta la historia de un chico, Fabietto Schisa (Filippo Scotti), en el turbulento Nápoles de los años ochenta. En 'Fue la mano de Dios', hay lugar para alegres sorpresas, como la llegada del legendario futbolista Diego Maradona, y para una tragedia igual de imprevista. El destino interpreta su papel, la alegría y la desdicha se entrelazan y el futuro de Fabietto echa a rodar. Sorrentino vuelve a la ciudad que lo vio nacer para contar su historia más personal: un relato sobre el destino y la familia, los deportes y el cine, el amor y la pérdida.",
     "recommender": "Loretus",
     "link": "https://www.netflix.com/title/81156325",
-    "image": "fue-la-mano-de-dios.webp",
-  },  {
+    "image": "fue-la-mano-de-dios.webp"
+  },
+  {
     "id": 6,
     "category": "podcast",
     "name": "Cualquier tiempo pasado fue anterior",
@@ -56,8 +57,9 @@
     "description": "Cualquier tiempo pasado fue anterior presenta la historia en la voz de la reconocida periodista Nieves Concostrina. Este podcast producido por Cadena SER consta de emisiones cortas. Se trata de cápsulas en las que la divulgadora toma un tema histórico que puede ser interesante para el público general así como para los aficionados a la ciencia que estudia las sociedades del pasado. Cada tema es tratado y comunicado de manera amena, para que todos hagamos un aprendizaje significativo a partir de la escucha.",
     "recommender": "Vir",
     "link": "https://open.spotify.com/show/5mZbYo1FEL4pS6Exp6RK6q",
-    "image": "cualquier-tiempo-pasado-fue-anterior.webp",
-  },{
+    "image": "cualquier-tiempo-pasado-fue-anterior.webp"
+  },
+  {
     "id": 7,
     "category": "podcast",
     "name": "Catástrofe ultravioleta",
@@ -65,15 +67,216 @@
     "description": "Catástrofe Ultravioleta es un proyecto de Javier Peláez, Javi Álvarez y Antonio Martínez Ron, con la colaboración de la Cátedra de Cultura Científica de la UPV/EHU y la fundación Euskampus. Una experiencia radiofónica que trata de acercar el mundo de la ciencia a través de los más diversos ámbitos del conocimiento. Cada episodio ofrece una aproximación a la realidad desde perspectivas inesperadas y una buena dosis de humor. Un viaje mental con la intención de transmitir el amor a la ciencia y de demostrar que el mundo está aún por descubrir.",
     "recommender": "Vir",
     "link": "https://www.podiumpodcast.com/catastrofe-ultravioleta/",
-    "image": "catastrofe-ultravioleta.webp",
-  },{
-    "id": 7,
-    "category": "películas/series",
+    "image": "catastrofe-ultravioleta.webp"
+  },
+  {
+    "id": 8,
+    "category": "películas/series/documentales",
     "name": "L'incredibile storia dell'Isola delle Rose",
     "autor": "Sydney Sibilia",
     "description": "Basada en la historia real de Giorgio Rosa y la pequeña nación que fundó en 1968 junto a la costa de Rimini, que encarnaba los sueños y aspiraciones de una generación.",
     "recommender": "Paz",
     "link": "https://www.netflix.com/title/81116948",
-    "image": "la_incre_ble_historia_de_la_Isla_de_las_Rosas.webp",
+    "image": "la_incre_ble_historia_de_la_isla_de_las_Rosas.webp"
+  },
+  {
+    "id": 9,
+    "category": "películas/series/documentales",
+    "name": "Don't Look Up",
+    "autor": "Adam McKay",
+    "description": "Kate Dibiasky (Jennifer Lawrence), estudiante de posgrado de Astronomía, y su profesor, el doctor Randall Mindy (Leonardo DiCaprio) hacen un descubrimiento tan asombros como terrorífico: un enorme cometa lleva un rumbo de colisión directa con la Tierra. El otro problema es... que a nadie le importa. Kate y Randall emprenden una gira mediática advertir a la humanidad que los lleva desde la indiferente presidenta Orlean (Meryl Streep) y su hijo y jefe de gabinete, Jason (Jonah Hill), a la emisión de 'The Daily Rip', un animado programa matinal presentado por Brie (Cate Blanchett) y Jack (Tyler Perry). Solo quedan seis meses para el impacto del cometa, pero gestionar el flujo de noticias y ganarse la atención de un público obsesionado con las redes sociales antes de que sea demasiado tarde resulta sorprendentemente cómico. ¿Pero qué es lo que hay que hacer para que el mundo mire hacia arriba?",
+    "recommender": "Paz",
+    "link": "https://www.netflix.com/title/81252357",
+    "image": "dont-look-up.webp"
+  },
+  {
+    "id": 10,
+    "category": "podcast",
+    "name": "Solaris (ensayos solares)",
+    "autor": "Jorge Carrión",
+    "description": "'Solaris', ensayos sonoros para ser más contemporáneos. Preguntas y respuestas para pensar y aprender juntos. Jorge Carrión, escritor, y corresponsal en el presente nos ayuda a comprender estos nuevos tiempos que vivimos: algorítmicos, cuánticos, acelerados, de inteligencia artificial, con su propia lógica, con su propia locura. Alba recomienda: Géneros fluidos (Capítulos cuatro), Poliamor (Capítulo trece)",
+    "recommender": "Alba",
+    "link": "https://www.podiumpodcast.com/solaris/",
+    "image": "solaris.webp"
+  },
+  {
+    "id": 11,
+    "category": "apps",
+    "name": "Lojong",
+    "autor": "Start up jipster",
+    "description": "Acceso a cientos de prácticas de meditación y de atención que pueden aportar numerosos beneficios como: Alivio de la ansiedad, control del estrés, más concentración y productividad, mejores relacionamientos, mejorar la calidad del sueño y dormir bien, felicidad, gratitud, reducción de la ira, mayor calma, relaja la mente",
+    "recommender": "Maru",
+    "link": "https://play.google.com/store/apps/details?id=br.com.lojong&hl=es&gl=US",
+    "image": "lojong.webp"
+  },
+  {
+    "id": 12,
+    "category": "ropa",
+    "name": "Timpers",
+    "autor": "Timpers",
+    "description": "El diseño es a ciegas y a través del tacto, característica fundamental de nuestras zapatillas y lo que las hace tan especiales. Siendo zapas para todo el mundo, esa forma de diseñar hace que sean atractivas y que puedan verse “con otros ojos”; por ello, decimos que son las primeras zapatillas inclusivas del mercado. Al escoger los materiales sólo por lo que evocan al tocarlos, conseguimos sensaciones únicas, que pueden ir desde recordarnos diversos objetos, hasta trasladarnos a ciertos lugares, siempre consiguiendo unos contrastes de texturas realmente atractivos. Sin duda, diseñando de este modo, hemos dado un paso más en el mundo de la moda y esta es una de nuestras señas de identidad.",
+    "recommender": "Paz",
+    "link": "https://www.timpersbrand.com/",
+    "image": "timpers.webp"
+  },
+  {
+    "id": 13,
+    "category": "películas/series/documentales",
+    "name": "des-Nudos",
+    "autor": "Diana Casellas, Txell Esteve",
+    "description": "Siete conversaciones íntimas y personales acerca de la vida y el mundo a través de los ojos de jóvenes que sufren de problemas de salud mental. des-Nudos da voz a estos jóvenes y sus acompañantes para hablar abierta, íntima y cercanamente sobre la salud mental y todo lo que la rodea.",
+    "recommender": "Paz",
+    "link": "https://www.rtve.es/play/videos/somos-documentales/des-nudos/6265245/",
+    "image": "desnudos.webp"
+  },
+  {
+    "id": 14,
+    "category": "podcast",
+    "name": "La Ciudadela Interior 5",
+    "autor": "Radio Fitness Revolucionario",
+    "description": "Claves de la felicidad según el Estoicismo y la Ciencia: Tu felicidad depende de tres cosas, todas las cuales están en tu poder: tu voluntad, tus ideas sobre los eventos en los que te involucras y el uso que haces de tus ideas. EpictetoEste episodio de La Ciudadela Interior es una colaboración especial con El Extraordinario, un sello de documentales sonoros. Algunos de los temas que tocamos: ¿cómo veían los estoicos la felicidad?, fórmula de la felicidad, o principales factores que contribuyen a nuestra felicidad, tipos de felicidad: eudaimónica y hedónica, importancia del propósito y la gratitud, diferencia entre el yo que experimenta y el yo que recuerda, ideas prácticas para ser más felices: dinero, tiempo, amistades...y mucho más.",
+    "recommender": "Paz",
+    "link": "https://open.spotify.com/episode/31CSgpRN3AEBiPGjyUFqBD?si=4QZXp4ixSf6iSuZYvl_IxA&utm_source=whatsapp&nd=1",
+    "image": "ciudadela-interior.webp"
+  },
+  {
+    "id": 15,
+    "category": "libros",
+    "name": "La revuelta de las putas",
+    "autor": "Amelia Tiganus",
+    "description": "Amelia Tiganus es un referente en su activismo y se ha convertido en una voz fundamental del movimiento feminista en España, así como entre quienes construyen una teoría abolicionista de la prostitución. A raíz de su experiencia personal y de su manera de entender y practicar la militancia, nos transmite la importancia de entender por que 'lo personal es político' y nos carga de razones para luchar por un mundo más justo, igualitario y sin prostitución, para las mujeres y las niñas.",
+    "recommender": "Sabel",
+    "link": "https://www.todostuslibros.com/libros/la-revuelta-de-las-putas_978-84-666-6885-9",
+    "image": "la-revuelta-de-las-putas.webp"
+  },
+  {
+    "id": 16,
+    "category": "libros",
+    "name": "La risa caníbal",
+    "autor": "Andrés Barba",
+    "description": "Cada vez que una persona abre la boca para reír está devorando a otra persona. Es una verdad tan antigua como la humanidad misma, por eso tal vez, antes de llevarnos las manos a la cabeza, a las armas o al código penal, no sería mala idea detenerse a reflexionar sobre lo que hemos aprendido riéndonos de los demás o enfrentándonos a sus risas. Esto es, precisamente, lo que se propone Andrés Barba en este breve y lúcido tratado sobre el fenómeno global de la risa, pionero en el momento de su primera publicación en 2016 y que ahora recuperamos en una nueva edición revisada y ampliada. Partiendo de la idea de que el humor nunca es inocente, Barba navega hábilmente la extensa literatura sobre el tema y examina algunos episodios, circunstancias o anécdotas puntuales que nos muestran la polifacética naturaleza de la risa, a la vez política, social, cultural y sexual: Hitler viendo por segunda vez la parodia que le hizo Chaplin en 'El gran dictador'; el éxito insólito que alcanzó la comedia pornográfica 'Garganta profunda' entre la puritana sociedad estadounidense de los años setenta; el momento en que el radicalismo islámico decidió contestar con balas a un puñado de caricaturas; las delirantes –e hilarantes– declaraciones de George Bush durante sus ocho años de presidencia de los Estados Unidos; la vida privada de los grandes cómicos de la Historia y su temperamento a menudo melancólico; las dificultades para abordar con humor acontecimientos traumáticos como el Holocausto o el 11S; las perversas y coartadoras dinámicas de la cultura de la cancelación o el relevante papel de las mujeres cómicas en el auge del feminismo. 'La risa caníbal' reaparece cuando los límites del humor, la incorrección y la ofensa son objeto de uno de los debates más encendidos entre la opinión pública, y se presenta como un texto audaz, incisivo y rabiosamente divertido que merece un lugar entre los grandes tratados sobre la comedia.",
+    "recommender": "Ester",
+    "link": "https://www.todostuslibros.com/libros/la-risa-canibal_978-84-122955-2-8",
+    "image": "la-risa-canibal.webp"
+  },
+  {
+    "id": 17,
+    "category": "libros",
+    "name": "Existiríamos el mar",
+    "autor": "Belén Copegui",
+    "description": "En el portal 26 de la Calle Martín Vargas de Madrid, Lena, Hugo, Ramiro, Camelia y Jara han logrado convertir el piso que comparten en un espacio de vida en común. A sus cuarenta años viven juntos por necesidad y porque forma parte de su manera de entender la convivencia y las relaciones personales. Pero la situación y el carácter de Jara son más inestables: hace tiempo que no tiene trabajo y siempre vive en vilo. ¿Por eso se ha ido sin avisar y sin dejar nota de su paradero? Existiríamos el mar es un soplo de energía que nos lleva a los caminos donde se unen la fragilidad y la fuerza, lo difícil y lo posible, los nuevos comienzos, y formas diferentes de perseverancia y de lealtad. Belén Gopegui ha escrito una novela osada y conmovedora de historias comunes donde lo más intenso no reside ni en lo más oscuro ni en lo más turbio, sino, a veces, muchas veces, en momentos de respeto, risas, charla, felicidad, apoyo mutuo o rabia compartida.",
+    "recommender": "Paz",
+    "link": "https://www.todostuslibros.com/busquedas?keyword=existiriamos+el+mar",
+    "image": "existiriamos-el-mar.webp"
+  },
+  {
+    "id": 18,
+    "category": "libros",
+    "name": "Haz que no parezca amor",
+    "autor": "Roy Galán",
+    "description": "Una selección de textos de Roy Galán, tanto icónicos como inéditos, que comparten la idea de que el mundo se puede (y se debe) cambiar con las palabras. Porque las palabras son las armas de construcción masiva en la REVOLUCIÓN DEL AMOR. Y porque solo cuando eres capaz de sentir lo que el otro siente llegas de verdad a comprenderle. Un libro que pone palabras a todo aquello que nos pasa por la cabeza y que no somos capaces de explicar. Haz que no parezca amor es una selección de textos escritos por Roy Galán, así como algunos inéditos, que comparten la idea de que el mundo se puede (y se debe) cambiar con las palabras.",
+    "recommender": "Jesús",
+    "link": "https://www.todostuslibros.com/busquedas?keyword=existiriamos+el+mar",
+    "image": "haz-que-no-aparezca-amor.webp"
+  },
+  {
+    "id": 19,
+    "category": "libros",
+    "name": "Siempre han hablado por nosotras",
+    "autor": "Najat El Hachmi",
+    "description": "Pocas voces tienen tanta autoridad para hablar de feminismo e identidad como Najat El Hachmi. Más allá de su condición de hija de familia musulmana marroquí, su mundo narrativo es un mundo de mujeres. Con este conocimiento, se ha formado una opinión sobre lo que supone ser feminista hoy. Por eso ha escrito este ensayo, para hacer hincapié en la crucial importancia de alcanzar la igualdad entre sexos en todas las culturas y etnias, y nos alerta del peligro de supeditar el feminismo a otras causas. Un manifiesto valiente y necesario. Una denuncia a las múltiples trampas y formas de discriminación que sufren las mujeres.",
+    "recommender": "Jesús",
+    "link": "https://www.todostuslibros.com/libros/siempre-han-hablado-por-nosotras_978-84-233-5604-1",
+    "image": "siempre-han-hablado-por-nosotras.webp"
+  },
+  {
+    "id": 20,
+    "category": "películas/series/documentales",
+    "name": "El monopilo de la violencia",
+    "autor": "David Dufresne",
+    "description": "Con la llegada de las nuevas tecnologías, toda brutalidad puede ser registrada. Un documental feroz y sobrecogedor, nominado a los Premios César, sobre el monopolio de la violencia y los excesos policiales en la Francia de Macron. Las últimas manifestaciones en Francia y la represión policial con que se respondieron (un escenario perfectamente trasladable a nuestro país) propician este documental reflexivo, nominado a los Premios César, que pone sobre la mesa del debate público el famoso “monopolio de la violencia” en manos del estado del que hablaba Max Weber. Una más que oportuna propuesta dialéctica que incorpora a la discusión el nuevo papel de los dispositivos móviles como generadores de contrarelatos a las retóricas oficiales.",
+    "recommender": "Jesús",
+    "link": "https://www.filmin.es/pelicula/el-monopolio-de-la-violencia",
+    "image": "el-monopolio-de-la-violencia.webp"
+  },
+  {
+    "id": 21,
+    "category": "películas/series/documentales",
+    "name": "Ema",
+    "autor": "Pablo Larraín",
+    "description": "Ema, una joven bailarina, decide separarse de Gastón luego de entregar a Polo en adopción, el hijo que ambos habían adoptado y que fueron incapaces de criar. Desesperada por las calles del puerto de Valparaíso, Ema busca nuevos amores para aplacar la culpa. Sin embargo, ese no es su único objetivo, también tiene un plan secreto para recuperarlo todo. ",
+    "recommender": "Paz",
+    "link": "https://www.filmin.es/pelicula/ema?origin=searcher&origin-type=primary",
+    "image": "ema.webp"
+  },
+  {
+    "id": 22,
+    "category": "películas/series/documentales",
+    "name": "Cortar por la línea de puntos",
+    "autor": "Zerocalcare",
+    "description": "Un dibujante de Roma con un armadillo por subconsciente, reflexiona sobre su trayectoria vital y un posible amor mientras viaja con un par de amigos.",
+    "recommender": "Loreto",
+    "link": "https://www.netflix.com/title/81304528",
+    "image": "cortar-por-la-linea-de-puntos.webp"
+  },
+  {
+    "id": 23,
+    "category": "películas/series/documentales",
+    "name": "Are You Lost In The World Like Me?",
+    "autor": "Moby & The Void Pacific Choir",
+    "description": "Moby & The Void Pacific Choir - 'Are You Lost In The World Like Me?' taken from the album 'These Systems Are Failing.'",
+    "recommender": "Sabel",
+    "link": "https://www.youtube.com/watch?v=VASywEuqFd8",
+    "image": "are-you-lost-in-the-world-like-me.webp"
+  },
+  {
+    "id": 24,
+    "category": "podcast",
+    "name": "Acabar",
+    "autor": "Melanie Tobal",
+    "description": "Acabar es un podcast documental sobre orgasmo femenino y para personas con vulva, que busca empoderar a través de una sexualidad libre, informada y sin tabúes. Junto a especialistas y entrevistadas, en cada episodio hablamos sobre distintas formas de estimulación, con datos, reflexiones y técnicas para conocernos, explorar nuestro cuerpo y encontrar qué nos gusta y cómo nos gusta. Conduce Melanie Tobal. Un podcast original de Spotify. Capítulos recomendados:'Todo lo que tenés que saber y nunca te dijeron sobre el sexo anal', 'Ni curiosa, ni confundida: bisexual' ",
+    "recommender": "Paz",
+    "link": "https://open.spotify.com/show/4zwCa2joDhm4JtX6RZvN97",
+    "image": "acabar.webp"
+  },
+  {
+    "id": 25,
+    "category": "podcast",
+    "name": "La geopolítica de la energía",
+    "autor": "Revista 5W. Raúl Flores y Nuria Jar",
+    "description": "Si la energía marca nuestras vidas, ¿cómo no va a marcar también la política? La capacidad de exportar energía marca las normas del tablero geopolítico y otorga un poder que Estados de todo el mundo han aprovechado para aumentar su fortaleza y su riqueza. Este mes abordamos la cuestión energética en algunos de sus principales escenarios: Rusia, Argelia, China, Oriente Medio y Europa. Lo hacemos de la mano de Joan Ramon Morante, director del Instituto de Investigación de la Energía de Cataluña; Lurdes Vidal, directora del área de Mundo Árabe e Islámico del Instituto Europeo del Mediterráneo; Eduard Soler, investigador sénior de CIDOB (Barcelona Centre for International Affairs); y Carmen Claudín, investigadora sénior de CIDOB especializada en política rusa y espacio postsoviético.",
+    "recommender": "Paz",
+    "link": "https://www.ivoox.com/geopolitica-energia-audios-mp3_rf_81841971_1.html",
+    "image": "5W.webp"
+  },
+  {
+    "id": 26,
+    "category": "películas/series/documentales",
+    "name": "MONOPOLY - Who owns the world?",
+    "autor": "Tim Gielen",
+    "description": "This incredibly eye opening documentary reveals something astonishing: the majority of our world is owned by the very same people. Because of this they can control the entire world and impose their wicked agenda onto all of humanity. This is the time to expose them and to rise up as one to defend our freedom. The name of the two companies who virtually owns the world are Vanguard and BlackRock. They are at the heart of the Deep State or Cabal. Their plan is the Great Reset where they want to enslave every human on earth.",
+    "recommender": "Loreto",
+    "link": "https://www.youtube.com/watch?v=FUXdIBp21iw",
+    "image": "monopoly.webp"
+  },
+  {
+    "id": 27,
+    "category": "películas/series/documentales",
+    "name": "Swan Song",
+    "autor": "Todd Stephens",
+    "description": "Pat Pitsenbarger es un excéntrico peluquero gay ya retirado que se escapa del asilo en el que está ingresado para cumplir con un último encargo: peinar y maquillar a una antigua celebridad, amiga y clienta que ha fallecido, para que esté perfecta en su velatorio.",
+    "recommender": "Paz",
+    "link": "https://www.filmin.es/pelicula/swan-song",
+    "image": "swan-song.webp"
+  },
+  {
+    "id": 28,
+    "category": "películas/series/documentales",
+    "name": "Transparent",
+    "autor": "Joey Soloway",
+    "description": "Serie de TV (2014-2019). 4 temporadas + episodio/musical final (Transparent Musicale Finale) de 2 horas. Todos los miembros del clan Pfefferman, una acomodada familia judía de Los Ángeles, deberán redescubrir su pasado y replantearse su futuro cuando el padre, un profesor recién jubilado, comunica a sus tres hijos, ya adultos, que se siente mujer, que se ha cambiado el nombre a Maura, y que vestirá como mujer desde ese momento. Cada uno de los hijos se tomará la inesperada revelación de una forma diferente.",
+    "recommender": "Paz",
+    "link": "https://www.primevideo.com/detail/Transparent/0U448L1Q6RDC7K5XQAM388FHUW",
+    "image": "transparent.webp"
   }
 ]
