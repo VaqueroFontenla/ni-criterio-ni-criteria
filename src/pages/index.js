@@ -1,7 +1,7 @@
 import * as React from "react"
 import { graphql } from "gatsby"
 import { Jumbo, Suggestions, SEO } from "../components"
-
+import scrollTo from "gatsby-plugin-smoothscroll"
 export const query = graphql`
   query GET_DATA {
     allSite {
@@ -9,6 +9,7 @@ export const query = graphql`
         node {
           siteMetadata {
             description
+            title
           }
         }
       }
@@ -53,9 +54,13 @@ const IndexPage = ({ data }) => {
     <>
       <SEO title="Home" />
       <Jumbo
+        title={data.allSite.edges[0].node.siteMetadata.title}
         description={data.allSite.edges[0].node.siteMetadata.description}
+        onClick={() => scrollTo("#suggestions")}
       />
-      <Suggestions suggestions={suggestions} />
+      <section id="suggestions">
+        <Suggestions suggestions={suggestions} />
+      </section>
     </>
   )
 }

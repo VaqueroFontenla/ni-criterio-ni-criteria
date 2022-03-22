@@ -1,14 +1,14 @@
 import React from "react"
 import { StyledJumbo } from "../styles/components"
+import { ExpandIcon } from "./expand-icon"
 
-import { default as Image } from "./image"
-
-export default function Jumbo({ description }) {
+export default function Jumbo({ title, description, onClick }) {
   return (
     <StyledJumbo>
       <div>
-        <h1>Ni Criterio Ni criteria</h1>
+        <h1>{title}</h1>
         <span>{description}</span>
+        <ExpandIcon onClick={onClick} />
       </div>
     </StyledJumbo>
   )

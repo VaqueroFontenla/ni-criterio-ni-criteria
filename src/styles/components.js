@@ -1,5 +1,6 @@
 import styled from "styled-components"
 import { above } from "./index"
+import Clapperboard from "../images/clapperboard.webp"
 
 export const colors = {
   green: "#98ca3f",
@@ -60,58 +61,48 @@ export const StyledHeader = styled.header`
     }
   `}
 `
-export const StyledJumbo = styled.div`
+export const StyledJumbo = styled.section`
   display: flex;
   align-items: center;
-  flex-direction: column;
   justify-content: center;
-  padding: 2rem 2rem;
-  color: white;
-  margin-bottom: 2rem;
-  overflow: hidden;
+  color: ${colors.darkBlue};
+  font-weight: 700;
   position: relative;
-  div {
-    padding: 1rem;
-  }
-  & span {
-    font-weight: 700;
-    font-size: 1rem;
-  }
-  & img {
-    width: 35vw;
-  }
-  ${above.medium`
-    padding: 2rem 4rem;
-    flex-direction: row;
-  `}
-  ${above.mediumL`
-    padding: 2rem 4rem;
-    flex-direction: row;
-  `}
-  ${above.large`
-    padding: 2rem 10rem;
-  `}
+  min-height: calc(100vh - 3.5rem); /* Tamaño menú de cabecera */
+  :before {
+    content: "";
+    background-image: linear-gradient(
+        rgba(28, 54, 67, 0.2),
+        rgba(30, 83, 114, 0.8)
+      ),
+      url(${Clapperboard});
 
-  &:before {
-    content: " ";
-    background-color: red;
-    background-color: ${colors.darkBlue};
-    z-index: -1;
+    background-size: cover;
     position: absolute;
-    transform: rotate(-19deg);
-    border-radius: 35%;
-    top: -32%;
-    width: 110%;
-    height: 20rem;
-    ${above.medium`
-      height: 20rem;
-    `}
-    ${above.large`
-      width: 160vw;
-      height: 32vw;
-      top: -86%;
-    `}
-  } ;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.3;
+  }
+  span {
+    font-size: 2rem;
+    svg {
+      width: 3rem;
+      height: 3rem;
+      justify-self: center;
+    }
+  }
+
+  div {
+    position: relative;
+    display: grid;
+    row-gap: 2rem;
+    justify-content: center;
+
+    padding: 2rem;
+    text-align: center;
+  }
 `
 
 export const StyledSuggestions = styled.div`

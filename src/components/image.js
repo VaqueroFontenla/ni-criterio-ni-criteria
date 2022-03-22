@@ -6,7 +6,7 @@ export default function Image({ name }) {
   const data = useStaticQuery(
     graphql`
       query GET_IMAGE {
-        clapperboard: file(relativePath: { eq: "clapperboard.jpg" }) {
+        clapperboard: file(relativePath: { eq: "clapperboard.webp" }) {
           childImageSharp {
             fluid(maxWidth: 1000) {
               ...GatsbyImageSharpFluid
