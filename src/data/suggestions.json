@@ -278,5 +278,85 @@
     "recommender": "Paz",
     "link": "https://www.primevideo.com/detail/Transparent/0U448L1Q6RDC7K5XQAM388FHUW",
     "image": "transparent.webp"
+  },
+  {
+    "id": 29,
+    "category": "películas/series/documentales",
+    "name": "La hija oscura",
+    "autor": "Maggie Gyllenhaal",
+    "description": "Sola en unas vacaciones junto al mar, Leda (Olivia Colman) se ve consumida por una joven madre y su hija mientras las observa en la playa. Intrigada por su atractiva relación (y por su estridente y amenazante familia), Leda se siente abrumada por sus propios recuerdos del terror, la confusión y la intensidad de la maternidad temprana. Un acto impulsivo lleva a Leda al extraño y ominoso mundo de su propia mente, donde se ve obligada a enfrentarse a las decisiones poco convencionales que tomó como madre joven y a sus consecuencias.",
+    "recommender": "Loreto",
+    "link": "https://www.youtube.com/watch?v=K2CikIGuFro",
+    "image": "la-hija-oscura.webp"
+  },
+  {
+    "id": 30,
+    "category": "películas/series/documentales",
+    "name": "Una revolución en toda regla",
+    "autor": "Rayka Zehtabchi",
+    "description": "En un pueblo rural de Delhi (India), las mujeres han comenzado una revolución pacífica. Su lucha es contra el estigma de la menstruación. Durante generaciones, las mujeres no han tenido acceso a productos de primera necesidad, viéndose obligadas en muchos casos a abandonar sus funciones o incluso los colegios en los que estaban estudiando. Sin embargo, un día una compañía instala en el pueblo una máquina dispensadora de compresas que les permite crear sus propios productos. El proyecto nace en California, y recibe el nombre de 'The Pad Project'.",
+    "recommender": "Vir",
+    "link": "https://www.netflix.com/title/81074663",
+    "image": "una-revolucion-en-toda-regla.webp"
+  },
+  {
+    "id": 31,
+    "category": "películas/series/documentales",
+    "name": "L'altra par",
+    "autor": "Rayka Zehtabchi",
+    "description": "En un pueblo rural de Delhi (India), las mujeres han comenzado una revolución pacífica. Su lucha es contra el estigma de la menstruación. Durante generaciones, las mujeres no han tenido acceso a productos de primera necesidad, viéndose obligadas en muchos casos a abandonar sus funciones o incluso los colegios en los que estaban estudiando. Sin embargo, un día una compañía instala en el pueblo una máquina dispensadora de compresas que les permite crear sus propios productos. El proyecto nace en California, y recibe el nombre de 'The Pad Project'.",
+    "recommender": "Vir",
+    "link": "https://www.netflix.com/title/81074663",
+    "image": "una-revolucion-en-toda-regla.webp"
+  },
+  {
+    "id": 32,
+    "category": "libros",
+    "name": "Confesiones de un bot ruso",
+    "autor": "Ruso bot",
+    "description": "LOS SECRETOS QUE PARTIDOS POLÍTICOS, MULTINACIONALES Y ORGANIZACIONES MUNDIALES. NO QUIEREN QUE CONOZCAMOS CONTADOS DESDE DENTRO. ME HE PASADO BASTANTE AÑOS INSULTÁNDOTE EN REDES SOCIALES PORQUE ALGUIEN ME PAGABA. AHORA QUE YA NO ESTOY EN NÓMINA, QUIERO CONTARTE CÓMO LO HACÍA. Bot Ruso pasó los últimos años de su trayectoria profesional al servicio de una agencia dedicada al astroturfing, con un equipo de trols a su cargo y operando en distintas misiones cuyo objetivo era manipular la conversación en la red. Ahora que ya no trabaja allí, se ha decidido a contar detalles sobre cómo se preparan y funcionan hoy las célebres campañas de bots y trols para empresas, partidos políticos o clubes deportivos. Con un enfoque divertido, irónico y muy didáctico, este libro nos abre los ojos y nos da las herramientas para reconocer este tipo de prácticas, evitar caer en la red de bulos y desenmascarar el modus operandi de los que mueven este negocio oscuro y poco ético.",
+    "recommender": "Loreto",
+    "link": "https://www.todostuslibros.com/libros/confesiones-de-un-bot-ruso_978-84-18619-15-1",
+    "image": "confesiones-de-un-bot-ruso.webp"
+  },
+  {
+    "id": 33,
+    "category": "video",
+    "name": "Todo puedo ser sexy",
+    "autor": "LOMO",
+    "description": "Lomogoldo y Cañaelomo, aka David Sainz y Pablo Nicasso, presentan 'Todo puede ser sexy'. ¿Os imagináis a estos dos poniéndose tontorrones? El romanticismo siempre está ahí y con este tema quieren demostrar que la cosa más simple puede convertirse en lo más sexy del universo.",
+    "recommender": "Jesus",
+    "link": "https://www.youtube.com/watch?v=xRzRgSmvRhw",
+    "image": "lomo.webp"
+  },
+  {
+    "id": 34,
+    "category": "video",
+    "name": "Reggaeton vegano",
+    "autor": "Cañaelomo Ft. Brutito Cobalto",
+    "description": "Tras el éxito intelnacional 'FRIENDZONE', Cañaelomo vuelve para deleitalnos con un reggaeton bien pomposo. Esta vez viene acompañado al micrófono de 'Brutito Cobalto', un nuevo exponente ...",
+    "recommender": "Jesus",
+    "link": "https://www.youtube.com/watch?v=9_OYV8Yr--c",
+    "image": "reggaeton-vegano.webp"
+  },
+  {
+    "id": 35,
+    "category": "video",
+    "name": "La trampa de la felicidad: La evolución de la mente humana.",
+    "autor": "Dr. Russ Harris",
+    "description": "¿Sabías que la mente humana ha evolucionado de tal forma que, naturalmente, crea sufrimiento psicológico? ¡Obtené más información en este clip exclusivo del programa en línea de 8 semanas Happiness Trap del Dr. Russ Harris!",
+    "recommender": "Sabel",
+    "link": "https://www.youtube.com/watch?app=desktop&v=kv6HkipQcfA",
+    "image": "la-trampa-de-la-felicidad.webp"
+  },
+  {
+    "id": 36,
+    "category": "películas/series/documentales",
+    "name": "Inteurodeoksyeon (Introduction)",
+    "autor": "Hong Sang-soo",
+    "description": "Youngho navega entre su sueño de convertirse en actor, sus dilemas amorosos y las expectativas de sus padres: un acupuntor de prestigio con quien mantiene una relación distante, y una madre inquieta que le anima a centrarse en su carrera. Cuando su novia Juwon decide viajar a Berlín para estudiar diseño de moda, Youngho la sorprende con una visita.",
+    "recommender": "Vir",
+    "link": "https://www.youtube.com/watch?v=IQBkXcJI1m0",
+    "image": "introduccion.webp"
   }
 ]
