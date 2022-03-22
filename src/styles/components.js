@@ -121,6 +121,7 @@ export const StyledSuggestions = styled.div`
   align-items: center;
   row-gap: 1rem;
   padding: 2rem 1rem 5rem 1rem;
+
   h2 {
     color: ${colors.darkBlue};
     font-size: 2rem;
@@ -144,15 +145,20 @@ export const StyledSuggestions = styled.div`
 `
 
 export const StyledSuggestion = styled.article`
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
   background: white;
   align-items: center;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   border-radius: 0.25rem;
-
   margin-bottom: 3rem;
+  width: 100%;
+
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid;
+
   &:hover {
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   }
