@@ -126,16 +126,19 @@ export const StyledSuggestions = styled.div`
     font-size: 2rem;
   }
   section {
-    display: grid;
-    grid-gap: 2rem;
-    align-items: flex-start;
     width: 100%;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    padding: 0;
+    height: 100%;
+
+    ${above.medium`
+      column-count: 2;
+      column-gap: 3rem;
+      `};
+    ${above.mediumL`
+      column-count: 3;
+      `};
     ${above.large`
-      padding: 0 1rem;
-      grid-gap: 3rem;
       padding: 0 10rem;
+      column-count: 4;
     `};
   }
 `
@@ -148,6 +151,8 @@ export const StyledSuggestion = styled.article`
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   border-radius: 0.25rem;
+
+  margin-bottom: 3rem;
   &:hover {
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   }

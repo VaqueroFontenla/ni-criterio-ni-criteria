@@ -43,12 +43,12 @@ export const GlobalStyles = createGlobalStyle`
   }
   ${above.medium`
    main{
-      padding-top: calc(3.5rem - 100vh);
+      padding-top: calc(3.5rem - 100%);
     }
     `}
   ${above.large`
    main{
-      padding-top: calc(4.5rem - 100vh);
+      padding-top: calc(4.5rem - 100%);
     }
   `}
 `
