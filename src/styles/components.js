@@ -111,6 +111,7 @@ export const StyledSuggestions = styled.div`
   flex-direction: column;
   align-items: center;
   row-gap: 1rem;
+  margin-top: 3.5rem;
   padding: 2rem 1rem 5rem 1rem;
 
   h2 {
@@ -252,46 +253,6 @@ export const StyledSuggestionDetailDescription = styled.div`
     font-weight: 700;
   }
 `
-export const StyledCart = styled.div`
-  padding: 1rem;
-  height: 80vh;
-  overflow-y: scroll;
-  h2 {
-    border-bottom: 2px solid ${colors.darkBlue};
-    color: ${colors.darkBlue};
-  }
-  & th {
-    color: #959595;
-    margin: 0;
-    border: none;
-  }
-  & img {
-    vertical-align: middle;
-    width: 60px;
-  }
-  nav {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    color: ${colors.darkBlue};
-    div {
-      display: flex;
-      align-items: baseline;
-      width: 250px;
-      justify-content: space-between;
-    }
-  }
-  & small {
-    color: #505050;
-    font-size: 0.9rem;
-  }
-  ${above.medium`
-    padding: 1rem 3rem;
-  `}
-  ${above.large`
-    padding: 5rem 10rem;
-  `}
-`
 
 export const Footer = styled.footer`
   background-color: ${colors.darkBlue};
@@ -318,120 +279,33 @@ export const Tag = styled.span`
   font-weight: 700;
 `
 
-export const SizeButton = styled.button`
-  padding: calc(0.4rem + 1px);
-  background-color: transparent;
-  border: 2px solid rgba(0, 0, 0, 0.1);
-  color: #272727;
-  opacity: ${({ unavailable }) => (unavailable ? 0.4 : 1)};
-  transition: 0.4s all ease;
-  &:focus {
-    outline: none;
-  }
-  &:hover {
-    transform: scale(1.2);
-  }
-`
+export const StyledScrollToTopButton =
+  styled.button <
+  { isVisible } >
+  `
+  display: ${p => (p.isVisible ? "block" : "none")};
 
-export const QtyButton = styled.button`
-  padding: 0.4rem;
-  background-color: transparent;
-  border: 2px solid rgba(0, 0, 0, 0.1);
-`
-export const QtySelect = styled.div`
-  display: flex;
-  margin: 0.6rem 0;
-  button {
-    padding: 0 10px;
-    background-color: transparent;
-    border: 2px solid rgba(0, 0, 0, 0.1);
-    max-width: 70px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #707070;
-  }
-  input {
-    padding: 0.4rem;
-    background-color: transparent;
-    border-top: 2px solid rgba(0, 0, 0, 0.1);
-    border-left: none;
-    border-right: none;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
-    max-width: 40px;
-    max-height: 40px;
-  }
-`
-export const SizeSelect = styled.div`
-  display: grid;
-  width: 10rem;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 8px;
-  font-size: 0.8rem;
-  margin-top: 0.6rem;
-  button:nth-child(${props => props.selected}) {
-    border: 2px solid rgba(0, 0, 0, 0.3);
-  }
-`
-export const Button = styled.button`
-  cursor: pointer;
-  background-color: ${({ type }) =>
-    type === "outline" ? "transparent" : colors.green};
-  color: ${({ type }) => (type === "outline" ? colors.darkBlue : "white")};
-  font-size: 0.9rem;
-  padding: 0.6rem 1rem;
-  font-weight: 500;
-  border: ${({ type }) =>
-    type === "outline"
-      ? `3px solid ${colors.darkBlue}`
-      : `3px solid ${colors.green}`};
-  border-radius: 12px;
-  a {
-    text-decoration: none;
-    color: ${({ type }) => (type === "outline" ? colors.darkBlue : "white")};
-  }
-  &:disabled {
-    background-color: ${colors.gray};
-    border-color: ${colors.gray};
-    cursor: not-allowed;
-  }
-`
+  position: fixed;
+  bottom: 2rem;
+  right:1.5rem;
 
-export const SelectStars = styled.div`
-  span {
-    margin: 0 5px;
-    color: ${colors.gray};
+  background-color: ${colors.darkBlue};
+  border: 0;
+  border-radius: 0.5rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+
+  height: 3rem;
+  width:3rem;
+
+  ${above.mediumL`
     cursor: pointer;
-  }
-  span:nth-child(-n + ${props => props.selected}) {
-    color: ${colors.orange};
-  }
-`
-export const Purchase = styled.div`
-  width: 100vw;
-  height: calc(100vh - 4.5rem - 101px);
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  h2 {
-    font-size: 2.2rem;
-  }
-  p {
-    margin: 2px 0;
-  }
-  span {
-    font-size: 2rem;
-  }
-`
-
-export const Content = styled.div`
-  ${above.medium`
-    padding-top: 3.5rem;
-    `}
-  ${above.large`
-    padding-top: 4.5rem;
+    transition: all 0.3s ease 0s;
+    :hover {
+      background-color: ${colors.lightBlue};
+      cursor: pointer;
+  
+      transform: translateY(0.5rem);
+    }
   `}
 `

@@ -28,6 +28,7 @@ export const GlobalStyles = createGlobalStyle`
     font-size: 16px; 
     color: #171717;
     background-color:#f6f8f9;
+    box-sizing: border-box;
   }
 
   h1 {
