@@ -15,6 +15,7 @@
     "gatsby-plugin-react-helmet": "^5.10.0",
     "gatsby-plugin-sharp": "^4.10.0",
     "gatsby-plugin-smoothscroll": "^1.2.0",
+    "gatsby-plugin-styled-components": "^5.10.0",
     "gatsby-plugin-typography": "^4.10.0",
     "gatsby-remark-images": "^6.10.0",
     "gatsby-source-filesystem": "^4.10.0",
