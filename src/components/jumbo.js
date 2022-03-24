@@ -7,8 +7,8 @@ export default function Jumbo({ title, description, onClick }) {
     <StyledJumbo>
       <div>
         <h1>{title}</h1>
-        <span>{description}</span>
-        <ExpandIcon onClick={onClick} />
+        <h3>{description}</h3>
+        <ExpandIcon onClick={onClick} height="3" color="darkBlue" />
       </div>
     </StyledJumbo>
   )

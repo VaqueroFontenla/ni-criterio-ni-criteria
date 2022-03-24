@@ -4,7 +4,7 @@ import { StyledHeader } from "../styles/components"
 import Cinema from "../images/cinema.png"
 
 const Header = () => (
-  <StyledHeader>
+  <StyledHeader id="header">
     <Link to="/">
       <img src={Cinema} alt="logo ni criterio ni criteria" />
     </Link>

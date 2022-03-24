@@ -80,15 +80,6 @@ export const StyledJumbo = styled.section`
     left: 0;
     opacity: 0.3;
   }
-  span {
-    font-size: 2rem;
-    svg {
-      width: 3rem;
-      height: 3rem;
-      justify-self: center;
-      cursor: pointer;
-    }
-  }
 
   div {
     position: relative;
@@ -101,28 +92,35 @@ export const StyledJumbo = styled.section`
   }
 `
 
-export const SuggestionsWrapper = styled.section`
-  padding-top: 4rem;
+export const StyledExpandIcon = styled.span`
+  font-size: 2rem;
+  svg {
+    width: ${p => p.height && `${p.height}rem`};
+    height: ${p => p.height && `${p.height}rem`};
+    justify-self: center;
+    cursor: pointer;
+    transform: ${p => p.reverse && "rotate(180deg)"};
+  }
 `
 
-export const StyledSuggestions = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  row-gap: 1rem;
-  background-color: ${colors.softGray};
-  padding: 2rem 1rem 5rem 1rem;
-
-  h2 {
+export const StyledSuggestions = styled.section`
+  padding-top: 4rem;
+  > h2 {
     color: ${colors.darkBlue};
+    text-align: center;
     font-size: 2rem;
+    margin: 2rem 0;
   }
-
-  section {
+  > div {
+    display: grid;
+    row-gap: 1rem;
+    background-color: ${colors.softGray};
+    padding: 2rem 1rem 5rem 1rem;
     width: 100%;
     height: 100%;
 
     ${above.medium`
+      display: block;
       column-count: 2;
       column-gap: 3rem;
       `};
@@ -186,6 +184,31 @@ export const StyledSuggestionInfo = styled.div`
     span {
       color: ${colors.green};
     }
+  }
+`
+
+export const StyledScrollToTop = styled.button`
+  display: ${p => (p.isVisible ? "block" : "none")};
+
+  position: fixed;
+  bottom: 2rem;
+  right: 1.5rem;
+
+  background-color: ${colors.darkBlue};
+  border: 0;
+  border-radius: 0.5rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+
+  height: 3rem;
+  width: 3rem;
+
+  transition: all 0.3s ease 0s;
+  :hover {
+    background-color: ${colors.corporateBlue};
+    cursor: pointer;
+
+    transform: translateY(0.5rem);
   }
 `
 
