@@ -1,8 +1,8 @@
 import React from "react"
 import { StyledJumbo } from "../styles/components"
-import { ExpandIcon } from "./expand-icon"
+import { ExpandIcon } from "."
 
-export default function Jumbo({ title, description, onClick }) {
+const Jumbo = ({ title, description, onClick }) => {
   return (
     <StyledJumbo>
       <div>
@@ -13,3 +13,5 @@ export default function Jumbo({ title, description, onClick }) {
     </StyledJumbo>
   )
 }
+
+export default Jumbo

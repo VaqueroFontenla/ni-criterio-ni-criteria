@@ -1,7 +1,7 @@
 import React from "react"
 import { colors, StyledExpandIcon } from "../styles/components"
 
-export const ExpandIcon = ({ onClick, color, height, reverse }) => (
+const ExpandIcon = ({ onClick, color, height, reverse }) => (
   <StyledExpandIcon onClick={onClick} height={height} reverse={reverse}>
     <svg
       width="24"
@@ -17,3 +17,5 @@ export const ExpandIcon = ({ onClick, color, height, reverse }) => (
     </svg>
   </StyledExpandIcon>
 )
+
+export default ExpandIcon

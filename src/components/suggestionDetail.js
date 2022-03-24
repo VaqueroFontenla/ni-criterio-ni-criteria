@@ -10,7 +10,7 @@ import {
 } from "../styles/components"
 import { SEO } from "./"
 
-export default function SuggestionDetail({
+const SuggestionDetail = ({
   sku: id,
   category,
   name,
@@ -18,7 +18,7 @@ export default function SuggestionDetail({
   recommender,
   link,
   image,
-}) {
+}) => {
   return (
     <StyledSuggestionDetailWrapper>
       <Link to="/">
@@ -50,3 +50,5 @@ export default function SuggestionDetail({
     </StyledSuggestionDetailWrapper>
   )
 }
+
+export default SuggestionDetail

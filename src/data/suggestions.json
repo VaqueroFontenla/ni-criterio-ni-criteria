@@ -301,16 +301,6 @@
   },
   {
     "id": 31,
-    "category": "películas/series/documentales",
-    "name": "L'altra par",
-    "autor": "Rayka Zehtabchi",
-    "description": "En un pueblo rural de Delhi (India), las mujeres han comenzado una revolución pacífica. Su lucha es contra el estigma de la menstruación. Durante generaciones, las mujeres no han tenido acceso a productos de primera necesidad, viéndose obligadas en muchos casos a abandonar sus funciones o incluso los colegios en los que estaban estudiando. Sin embargo, un día una compañía instala en el pueblo una máquina dispensadora de compresas que les permite crear sus propios productos. El proyecto nace en California, y recibe el nombre de 'The Pad Project'.",
-    "recommender": "Vir",
-    "link": "https://www.netflix.com/title/81074663",
-    "image": "una-revolucion-en-toda-regla.webp"
-  },
-  {
-    "id": 32,
     "category": "libros",
     "name": "Confesiones de un bot ruso",
     "autor": "Ruso bot",
@@ -320,7 +310,7 @@
     "image": "confesiones-de-un-bot-ruso.webp"
   },
   {
-    "id": 33,
+    "id": 32,
     "category": "video",
     "name": "Todo puedo ser sexy",
     "autor": "LOMO",
@@ -330,7 +320,7 @@
     "image": "lomo.webp"
   },
   {
-    "id": 34,
+    "id": 33,
     "category": "video",
     "name": "Reggaeton vegano",
     "autor": "Cañaelomo Ft. Brutito Cobalto",
@@ -340,7 +330,7 @@
     "image": "reggaeton-vegano.webp"
   },
   {
-    "id": 35,
+    "id": 34,
     "category": "video",
     "name": "La trampa de la felicidad: La evolución de la mente humana.",
     "autor": "Dr. Russ Harris",
@@ -350,7 +340,7 @@
     "image": "la-trampa-de-la-felicidad.webp"
   },
   {
-    "id": 36,
+    "id": 35,
     "category": "películas/series/documentales",
     "name": "Inteurodeoksyeon (Introduction)",
     "autor": "Hong Sang-soo",

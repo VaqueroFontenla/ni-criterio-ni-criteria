@@ -8,7 +8,7 @@ import {
   StyledSuggestion,
 } from "../styles/components"
 
-export default function Suggestions({ suggestions }) {
+const Suggestions = ({ suggestions }) => {
   return (
     <>
       <StyledSuggestions id="suggestions">
@@ -46,3 +46,5 @@ export default function Suggestions({ suggestions }) {
     </>
   )
 }
+
+export default Suggestions

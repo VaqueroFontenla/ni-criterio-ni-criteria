@@ -1,5 +1,5 @@
 import React from "react"
-import { ExpandIcon } from "./expand-icon"
+import { ExpandIcon } from "."
 import { StyledScrollToTop } from "../styles/components"
 
 const ScrollToTop = ({ onClick }) => {
