@@ -12,17 +12,15 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header />
-      <Content>
-        <main>{children}</main>
-        <Footer>
-          {isMediumWindow && <span>{`© ${new Date().getFullYear()}`}</span>}
-          <span role="img" aria-label="emoji">
-            🚀
-          </span>
-          Built with Rock and Roll by
-          <a href="https://github.com/VaqueroFontenla">Loretus</a>
-        </Footer>
-      </Content>
+      <main>{children}</main>
+      <Footer>
+        {isMediumWindow && <span>{`© ${new Date().getFullYear()}`}</span>}
+        <span role="img" aria-label="emoji">
+          🚀
+        </span>
+        Built with Rock and Roll by
+        <a href="https://github.com/VaqueroFontenla">Loretus</a>
+      </Footer>
     </>
   )
 }

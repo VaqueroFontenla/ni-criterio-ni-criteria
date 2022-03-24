@@ -38,18 +38,5 @@ export const GlobalStyles = createGlobalStyle`
   h2 {
     margin: 0;
   }
-
-  main{
-    padding-top: 3.5rem;
-  }
-  ${above.medium`
-   main{
-      padding-top: calc(3.5rem - 100%);
-    }
-    `}
-  ${above.large`
-   main{
-      padding-top: calc(4.5rem - 100%);
-    }
-  `}
+}
 `

@@ -1,6 +1,8 @@
 import * as React from "react"
 import { graphql } from "gatsby"
 import { Jumbo, Suggestions, SEO } from "../components"
+import { SuggestionsWrapper } from "../styles/components"
+
 import scrollTo from "gatsby-plugin-smoothscroll"
 export const query = graphql`
   query GET_DATA {
@@ -58,9 +60,9 @@ const IndexPage = ({ data }) => {
         description={data.allSite.edges[0].node.siteMetadata.description}
         onClick={() => scrollTo("#suggestions")}
       />
-      <section id="suggestions">
+      <SuggestionsWrapper id="suggestions">
         <Suggestions suggestions={suggestions} />
-      </section>
+      </SuggestionsWrapper>
     </>
   )
 }

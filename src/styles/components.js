@@ -18,16 +18,15 @@ export const StyledHeader = styled.header`
     ${colors.darkBlue},
     ${colors.lightBlue}
   );
-  margin-bottom: 0;
+
   padding: 0 0.5rem 0 0;
-  height: 3.5rem;
+  height: 4rem;
   width: 100%;
-  max-width: 960;
-  display: flex;
+
   position: fixed;
-  z-index: 3;
-  align-items: center;
-  justify-content: space-between;
+  top: 0;
+  z-index: 1;
+
   a {
     height: 100%;
     font-size: 0.6rem;
@@ -38,15 +37,9 @@ export const StyledHeader = styled.header`
     height: 100%;
     padding: 0.5rem 0.8rem;
   }
-  & ul {
-    list-style: none;
-    margin: 0;
-    display: flex;
-    font-size: 0.2rem;
-  }
+
   ${above.medium`
     padding: 0 2rem;
-    height: 3.5rem;
     a{
       height: 100%;
       font-size: 0.8rem;
@@ -54,7 +47,6 @@ export const StyledHeader = styled.header`
   `}
   ${above.large`
     padding: 0 10rem;
-    height: 4.5rem;
     a{
       height: 100%;
       font-size: 0.8rem;
@@ -65,10 +57,13 @@ export const StyledJumbo = styled.section`
   display: flex;
   align-items: center;
   justify-content: center;
+
   color: ${colors.darkBlue};
   font-weight: 700;
+
   position: relative;
-  min-height: calc(100vh - 3.5rem); /* Tamaño menú de cabecera */
+  min-height: calc(100vh - 4rem); /* Tamaño menú de cabecera */
+  margin-top: 4rem;
   :before {
     content: "";
     background-image: linear-gradient(
@@ -91,6 +86,7 @@ export const StyledJumbo = styled.section`
       width: 3rem;
       height: 3rem;
       justify-self: center;
+      cursor: pointer;
     }
   }
 
@@ -105,19 +101,23 @@ export const StyledJumbo = styled.section`
   }
 `
 
+export const SuggestionsWrapper = styled.section`
+  padding-top: 4rem;
+`
+
 export const StyledSuggestions = styled.div`
-  background-color: ${colors.softGray};
   display: flex;
   flex-direction: column;
   align-items: center;
   row-gap: 1rem;
-  margin-top: 3.5rem;
+  background-color: ${colors.softGray};
   padding: 2rem 1rem 5rem 1rem;
 
   h2 {
     color: ${colors.darkBlue};
     font-size: 2rem;
   }
+
   section {
     width: 100%;
     height: 100%;
@@ -279,15 +279,12 @@ export const Tag = styled.span`
   font-weight: 700;
 `
 
-export const StyledScrollToTopButton =
-  styled.button <
-  { isVisible } >
-  `
+export const StyledScrollToTopButton = styled.button`
   display: ${p => (p.isVisible ? "block" : "none")};
 
   position: fixed;
   bottom: 2rem;
-  right:1.5rem;
+  right: 1.5rem;
 
   background-color: ${colors.darkBlue};
   border: 0;
@@ -296,7 +293,7 @@ export const StyledScrollToTopButton =
   z-index: 1;
 
   height: 3rem;
-  width:3rem;
+  width: 3rem;
 
   ${above.mediumL`
     cursor: pointer;
