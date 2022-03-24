@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/ni-criterio-ni-criteria",
   siteMetadata: {
     title: `Ni criterio ni criteria`,
     description: `Recomendaciones de entretenimiento cultural de gente 'sin criterio'`,
