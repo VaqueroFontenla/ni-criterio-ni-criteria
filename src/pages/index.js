@@ -53,7 +53,7 @@ const IndexPage = ({ data }) => {
 
   return (
     <>
-      <SEO title="Home" />
+      <SEO title={data.allSite.edges[0].node.siteMetadata.title} />
       <Jumbo
         title={data.allSite.edges[0].node.siteMetadata.title}
         description={data.allSite.edges[0].node.siteMetadata.description}
