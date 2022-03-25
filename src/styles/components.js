@@ -63,7 +63,7 @@ export const StyledJumbo = styled.section`
   font-weight: 700;
 
   position: relative;
-  min-height: 100vh;
+  min-height: calc(100vh - 4rem);
   margin-top: 4rem;
   :before {
     content: "";
@@ -262,7 +262,9 @@ export const StyledSuggestionInfo = styled.div`
 `
 
 export const StyledScrollToTop = styled.button`
-  display: ${p => (p.isVisible ? "block" : "none")};
+  display: ${p => (p.isVisible ? "flex" : "none")};
+  justify-content: ${p => p.isVisible && "center"};
+  align-items: ${p => p.isVisible && "center"};
 
   position: fixed;
   bottom: 2rem;
