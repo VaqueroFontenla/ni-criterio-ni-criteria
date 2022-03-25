@@ -133,7 +133,7 @@ export const StyledSuggestions = styled.section`
     font-size: 2rem;
     margin: 2rem 0;
   }
-  > div {
+  > div:last-child {
     display: grid;
     row-gap: 1rem;
     background-color: ${colors.softGray};
@@ -152,6 +152,47 @@ export const StyledSuggestions = styled.section`
     ${above.large`
       padding: 0 10rem;
       column-count: 4;
+    `};
+  }
+`
+
+export const StyledFilters = styled.div`
+  display: grid;
+  row-gap: 1rem;
+  padding: 0 1rem;
+  justify-content: center;
+
+  div {
+    justify-self: center;
+
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    column-gap: 0.5rem;
+    align-items: center;
+    border-bottom: 3px solid ${colors.green};
+
+    text-align: center;
+    span {
+      color: ${colors.darkBlue};
+      font-size: 1.5rem;
+      font-weight: 700;
+    }
+  }
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 1rem;
+
+    border: 1px solid ${colors.green};
+    border-radius: 0.25rem;
+    padding: 1.5rem;
+
+    li {
+      margin: 0;
+    }
+    ${above.large`
+      padding: 0 10rem;
     `};
   }
 `
@@ -327,13 +368,24 @@ export const Footer = styled.footer`
   }
 `
 
-export const Tag = styled.span`
-  padding: 0.3rem 1.5rem;
-  background-color: ${colors.gray};
-  display: inline-block;
-  color: white;
-  border-radius: 5px;
+export const StyledTag = styled.span`
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  color: ${p => (p.active ? colors.gray : colors.softGray)};
   font-weight: 700;
+  text-align: center;
+
+  padding: 1rem;
+  background-color: ${p => (p.active ? colors.softGray : colors.gray)};
+  border-radius: 5px;
+  border: 1px solid ${colors.gray};
+  ${p =>
+    !!p.onClick &&
+    css`
+      cursor: pointer;
+    `};
 `
 
 export const StyledScrollToTopButton = styled.button`

@@ -1,20 +1,59 @@
 import React from "react"
 import { Link } from "gatsby"
 import Img from "gatsby-image"
-import { ScrollToTop, Icon } from "../components"
+import { ScrollToTop, Icon, Tag } from "../components"
+import { CATEGORIES } from "../constants"
 import {
   StyledSuggestions,
   StyledSuggestionInfo,
   StyledSuggestion,
+  StyledFilters,
 } from "../styles/components"
 
 const Suggestions = ({ suggestions }) => {
+  const [filteredSuggestions, setFilteredSuggestions] =
+    React.useState(suggestions)
+  const [activeTag, setActiveTag] = React.useState()
+  const [isVisible, setIsVisible] = React.useState()
+
+  React.useEffect(() => {
+    activeTag
+      ? setFilteredSuggestions(
+          suggestions.filter(suggestion => suggestion.category === activeTag)
+        )
+      : setFilteredSuggestions(suggestions)
+  }, [activeTag])
+
   return (
     <>
       <StyledSuggestions id="suggestions">
         <h2>Recomendaciones</h2>
+        <StyledFilters>
+          <div onClick={() => setIsVisible(isVisible => !isVisible)}>
+            <span>Filtrar</span>
+            <Icon color="darkBlue" type="expand" />
+          </div>
+          {isVisible && (
+            <ul>
+              {Object.values(CATEGORIES).map(category => (
+                <li key={category}>
+                  <Tag
+                    onClick={() =>
+                      category === activeTag
+                        ? setActiveTag()
+                        : setActiveTag(category)
+                    }
+                    active={category === activeTag}
+                  >
+                    {category}
+                  </Tag>
+                </li>
+              ))}
+            </ul>
+          )}
+        </StyledFilters>
         <div>
-          {suggestions.map(suggestion => (
+          {filteredSuggestions.map(suggestion => (
             <StyledSuggestion key={suggestion.id}>
               <Img
                 fluid={suggestion.image.childImageSharp.fluid}
