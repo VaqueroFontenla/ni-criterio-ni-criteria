@@ -63,7 +63,7 @@ export const StyledJumbo = styled.section`
   font-weight: 700;
 
   position: relative;
-  min-height: calc(100vh - 4rem); /* Tamaño menú de cabecera */
+  min-height: 100vh;
   margin-top: 4rem;
   :before {
     content: "";
@@ -267,6 +267,8 @@ export const StyledScrollToTop = styled.button`
   position: fixed;
   bottom: 2rem;
   right: 1.5rem;
+
+  text-align: center;
 
   background-color: ${colors.darkBlue};
   border: 0;
