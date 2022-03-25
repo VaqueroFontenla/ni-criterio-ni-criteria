@@ -161,6 +161,7 @@ export const StyledFilters = styled.div`
   row-gap: 1rem;
   padding: 0 1rem;
   justify-content: center;
+  align-content: start;
 
   div {
     justify-self: center;
@@ -172,12 +173,16 @@ export const StyledFilters = styled.div`
     border-bottom: 3px solid ${colors.green};
 
     text-align: center;
+
+    cursor: pointer;
+
     span {
       color: ${colors.darkBlue};
       font-size: 1.5rem;
       font-weight: 700;
     }
   }
+
   ul {
     display: flex;
     flex-wrap: wrap;
@@ -191,10 +196,10 @@ export const StyledFilters = styled.div`
     li {
       margin: 0;
     }
-    ${above.large`
-      padding: 0 10rem;
-    `};
   }
+  ${above.large`
+       margin-bottom: 2rem;
+    `};
 `
 
 export const StyledSuggestion = styled.article`
