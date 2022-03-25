@@ -1,6 +1,6 @@
 import React from "react"
 import { StyledJumbo } from "../styles/components"
-import { ExpandIcon } from "."
+import { Icon } from "."
 
 const Jumbo = ({ title, description, onClick }) => {
   return (
@@ -8,7 +8,7 @@ const Jumbo = ({ title, description, onClick }) => {
       <div>
         <h1>{title}</h1>
         <h3>{description}</h3>
-        <ExpandIcon onClick={onClick} height="3" color="darkBlue" />
+        <Icon type="expand" onClick={onClick} size="3" color="darkBlue" />
       </div>
     </StyledJumbo>
   )

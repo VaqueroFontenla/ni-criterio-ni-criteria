@@ -1,6 +1,7 @@
 import { Link } from "gatsby"
 import Img from "gatsby-image"
 import React from "react"
+import { SEO, Icon } from "./"
 import {
   StyledSuggestionDetail,
   StyledSuggestionDetailDescription,
@@ -8,7 +9,6 @@ import {
   Tag,
   StyledSuggestionDetailWrapper,
 } from "../styles/components"
-import { SEO } from "./"
 
 const SuggestionDetail = ({
   sku: id,
@@ -22,7 +22,8 @@ const SuggestionDetail = ({
   return (
     <StyledSuggestionDetailWrapper>
       <Link to="/">
-        <span>&#8592;</span>Volver al catálogo
+        <Icon type="arrow" color="green" size="1" />
+        <span>Volver al catálogo</span>
       </Link>
       <StyledSuggestionDetail>
         <SEO title={name} />
@@ -43,7 +44,9 @@ const SuggestionDetail = ({
           </StyledSuggestionDetailDescription>
           <div>
             <span>Donde: </span>
-            <a href={link}>{name}</a>
+            <a href={link}>
+              <span>{name}</span>
+            </a>
           </div>
         </StyledSuggestionDetailInfo>
       </StyledSuggestionDetail>

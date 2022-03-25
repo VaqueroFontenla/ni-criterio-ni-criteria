@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import Img from "gatsby-image"
-import { ScrollToTop } from "../components"
+import { ScrollToTop, Icon } from "../components"
 import {
   StyledSuggestions,
   StyledSuggestionInfo,
@@ -27,7 +27,8 @@ const Suggestions = ({ suggestions }) => {
                   <small>{suggestion.autor}</small>
                 </div>
                 <Link to={`/${suggestion.id}`}>
-                  Ver detalle <span>↪ </span>
+                  Ver detalle{" "}
+                  <Icon type="arrow" color="green" size="1" reverse />
                 </Link>
               </StyledSuggestionInfo>
             </StyledSuggestion>

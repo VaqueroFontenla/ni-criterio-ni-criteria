@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled, { css } from "styled-components"
 import { above } from "./index"
 import Clapperboard from "../images/clapperboard.webp"
 
@@ -53,6 +53,7 @@ export const StyledHeader = styled.header`
     }
   `}
 `
+
 export const StyledJumbo = styled.section`
   display: flex;
   align-items: center;
@@ -85,22 +86,43 @@ export const StyledJumbo = styled.section`
     position: relative;
     display: grid;
     row-gap: 2rem;
-    justify-content: center;
 
     padding: 2rem;
     text-align: center;
+
+    > span {
+      justify-self: center;
+    }
   }
 `
 
-export const StyledExpandIcon = styled.span`
-  font-size: 2rem;
-  svg {
-    width: ${p => p.height && `${p.height}rem`};
-    height: ${p => p.height && `${p.height}rem`};
-    justify-self: center;
-    cursor: pointer;
+export const StyledIcon = styled.span`
+  display: inline-block;
+  width: ${p => `${p.size}rem`};
+  height: ${p => `${p.size}rem`};
+
+  line-height: 0; /* So the icon doesn't move a little lower */
+
+  & > svg {
     transform: ${p => p.reverse && "rotate(180deg)"};
+    width: 100%;
+    height: 100%;
+
+    & path,
+    & polygon {
+      fill: ${p => p.color};
+    }
+
+    & g[fill="none"] > :not([fill]) {
+      stroke: ${p => p.color};
+    }
   }
+
+  ${p =>
+    !!p.onClick &&
+    css`
+      cursor: pointer;
+    `}
 `
 
 export const StyledSuggestions = styled.section`
@@ -176,10 +198,16 @@ export const StyledSuggestionInfo = styled.div`
 
   a {
     justify-self: end;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    column-gap: 0.5rem;
+    align-items: center;
+
     text-decoration: none;
     color: ${colors.darkBlue};
     font-size: 1rem;
     text-align: end;
+    line-height: 1.5rem;
     border-bottom: 3px solid ${colors.green};
     span {
       color: ${colors.green};
@@ -214,26 +242,31 @@ export const StyledScrollToTop = styled.button`
 
 export const StyledSuggestionDetailWrapper = styled.div`
   display: grid;
-  row-gap: 1rem;
+  row-gap: 2rem;
   grid-template-rows: auto 1fr;
   align-items: start;
 
+  margin-top: 4rem;
   padding: 1rem;
 
   a {
     justify-self: start;
+
     text-decoration: none;
     color: ${colors.black};
+    line-height: 1.5rem;
     border-bottom: 3px solid ${colors.green};
-
-    span {
-      font-size: 2rem;
-      color: ${colors.green};
-    }
 
     ${above.mediumL`
     justify-self: end;
   `}
+  }
+
+  > a {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 0.5rem;
+    align-items: center;
   }
 
   ${above.mediumL`
@@ -242,6 +275,7 @@ export const StyledSuggestionDetailWrapper = styled.div`
   `}
   ${above.large`
     padding: 2rem 10rem;
+    min-height: calc(100vh - 9rem);
   `}
 `
 export const StyledSuggestionDetail = styled.div`

@@ -1,5 +1,5 @@
 import React from "react"
-import { ExpandIcon } from "."
+import { Icon } from "."
 import { StyledScrollToTop } from "../styles/components"
 
 const ScrollToTop = ({ onClick }) => {
@@ -20,7 +20,7 @@ const ScrollToTop = ({ onClick }) => {
 
   return (
     <StyledScrollToTop isVisible={isVisible} onClick={onClick}>
-      <ExpandIcon color="softGray" height="1.5" reverse />
+      <Icon reverse type="expand" />
     </StyledScrollToTop>
   )
 }
