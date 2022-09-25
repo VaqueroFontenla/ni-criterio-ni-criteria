@@ -17,12 +17,11 @@ Cultural suggestions gather by a buddies Whatssap group tourned into a web app i
 ### Serve app
 
 ```sh
-  npm run develop
+  npm start
 ```
 
 ### Deploy GitHUb Pages
 
 ```sh
-git checkout gh-pages
 npm run deploy
 ```

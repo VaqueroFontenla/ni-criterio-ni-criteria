@@ -388,7 +388,7 @@
     "recommender": "Paz",
     "link": "https://www.eldiario.es/opinion/zona-critica/piropo-palabra-cayo-desgracia_129_8902779.html",
     "image": "piropo.webp"
-  }, 
+  },
   {
     "id": 40,
     "category": "video",
@@ -448,7 +448,7 @@
     "recommender": "Sabel",
     "link": "https://www.infolibre.es/opinion/ideas-propias/gusta-cama_129_1244711.html",
     "image": "no-image.webp"
-  }, 
+  },
   {
     "id": 46,
     "category": "libros / artículos",
@@ -628,5 +628,15 @@
     "recommender": "Meiga",
     "link": "https://www.gabinetepodcast.com/",
     "image": "gabinete-de-curiosidades.webp"
+  },
+  {
+    "id": 64,
+    "category": "películas / series / documentales",
+    "name": "Ellas dan el golpe",
+    "autor": "Will Graham, Abbi Jacobson, Michelle Brando, ...",
+    "description": "8 episodios. Serie de comedia sobre la liga de béisbol femenina profesional All-American de la Segunda Guerra Mundial. La serie evoca el espíritu alegre de la película de Penny Marshall, mientras profundiza en la historia de toda una generación de mujeres que soñaban con jugar al béisbol profesional. La historia ahonda en la raza y la sexualidad siguiendo el viaje de un nuevo grupo de personajes a medida que van labrando sus propios caminos hacia el terreno de juego, tanto en la liga como fuera de ella.",
+    "recommender": "Loreto",
+    "link": "https://www.primevideo.com/detail/0RSU4JWOGGX915XGBODNHVS5UG/ref=atv_sr_fle_c_Tn74RA_1_1_1?sr=1-1&pageTypeIdSource=ASIN&pageTypeId=B0B2ZSYNNC&qid=1664115152867",
+    "image": "league-of-their-own.webp"
   }
 ]
