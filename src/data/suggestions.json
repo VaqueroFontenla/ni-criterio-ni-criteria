@@ -357,276 +357,276 @@
     "description": "Toda una oda a la (des)información y al arte de hablar sin saber que nos deja una frase para enmarcar: “primero comento, y luego, como es lógico, ya me informo del tema en cuestión”. Ojete Calor explica ‘Opina de que’: «A veces parece que para juzgar y opinar tengas que estar informado o saber de lo que estás hablando. Pues no, porque eso es discriminación. Que el hecho de desconocer un tema o tener datos parciales no te frene a la hora de expresarte. Para eso está la democracia. Nosotros no tenemos tiempo para la gente que argumenta. A mí dame un titular”.",
     "recommender": "Maru",
     "link": "https://vimeo.com/240656446",
-    "image": "ojetecalor.webp"
+    "image": "ojete-calor.webp"
   },
-  // {
-  //   "id": 37,
-  //   "category": "podcast",
-  //   "name": "¿Sigue siendo importante la monogamia?",
-  //   "autor": "Martha Debayle",
-  //   "description": "Hoy que existen tantas formas de querernos, que no nos enamoramos nada más para tener hijos, ¿sigue siendo importante la monogamia? ¿Qué es eso de casarse para toda la vida, cuando la vida puede durar 90 años? En este episodio de La Historia del Amor, vamos a conocer cómo evolucionamos de un vínculo de pareja hasta la construcción bio-evolutiva, social y cultural de la monogamia.",
-  //   "recommender": "Jesús",
-  //   "link": "https://open.spotify.com/episode/4z9AM5VILEdCV1WEXn9SLO",
-  //   "image": "importante-monogamia.webp"
-  // },
-  // {
-  //   "id": 38,
-  //   "category": "podcast",
-  //   "name": "Vidas Contadas: Borja Vilaseca",
-  //   "autor": "https://729.es (productora)",
-  //   "description": "Vidas contadas es un programa para descubrir a personas que han tenido una vida extraordinaria. Tomar un café con alguien, que te cuente su vida y que su vida sea de las que se cuentan con los dedos de una mano. Más que una entrevista, una conversación tranquila con un personaje relevante que tenga cosas interesantes que contar.",
-  //   "recommender": "Sabel",
-  //   "link": "https://open.spotify.com/episode/2Xa6Rp3Hxq7IRdSOCoTjmJ",
-  //   "image": "vidas-contadas.webp"
-  // },
-  // {
-  //   "id": 39,
-  //   "category": "libros / artículos",
-  //   "name": "Piropo: una palabra que cayó en desgracia",
-  //   "autor": "Marta Abad",
-  //   "description": "El piropo tiene la intención de agradar; si intimida, no es piropo, es agresión. El piropo envuelve, arropa, da calidez; si produce quemazón, no es piropo, es ataque,",
-  //   "recommender": "Paz",
-  //   "link": "https://www.eldiario.es/opinion/zona-critica/piropo-palabra-cayo-desgracia_129_8902779.html",
-  //   "image": "piropo.webp"
-  // },
-  // {
-  //   "id": 40,
-  //   "category": "video",
-  //   "name": "Pájaros",
-  //   "autor": "Cruhda | Judit Adataberna | Humo Internacional",
-  //   "description": "Después de dos años de silencio editorial desde el rotundo “Ibera Morte”, Cruhda presenta su segundo trabajo con el título “Lux Ahena”, un álbum que concluye su particular díptico sonoro de la España negra. Lux Ahena significa luz de bronce, una luz que se busca desde la oscuridad a lo largo de todo el álbum, en un viaje de fricciones y encuentros entre lo que Kae Tempest y Carl Jung llamarían: El Espíritu de las Profundidades y el Espíritu de los Tiempos. La desolación política que golpea Madrid hunde a la artista en este viaje sonoro que produjo y grabó en soledad con la ayuda de la residencia de Matadero Madrid para mujeres en la música electrónica. Cruhda retorna a la tierra vs. el estado y a la poesía vs. la ley en un álbum anárquico que se expresa musicalmente a través de sintetizadores, grabaciones de campo, samplers, clarinete y voz.",
-  //   "recommender": "Ana",
-  //   "link": "https://www.youtube.com/watch?v=FqDBZWBLCcs",
-  //   "image": "cruhda-lux-ahena.web"
-  // },
-  // {
-  //   "id": 41,
-  //   "category": "podcast",
-  //   "name": "Innovación rural, la idea que nace en un granero.",
-  //   "autor": "Carne Cruda",
-  //   "description": "El mundo rural está lleno de personas, iniciativas y empresas que demuestran que los pueblos también son laboratorios de innovación social. Hoy rompemos estigmas y desmontamos estereotipos junto a Revista Salvaje y su directora, Annabel Roda, y hablamos de ideas que quieren cambiar el mundo, de innovación desde los pueblos, de emprendimiento en las zonas rurales y de compromiso social.",
-  //   "recommender": "Maru",
-  //   "link": "https://open.spotify.com/episode/0iXGoRj5P1Ejrmel3J3hGu",
-  //   "image": "carne-cruda.webp"
-  // },
-  // {
-  //   "id": 42,
-  //   "category": "podcast",
-  //   "name": "Estruc-turras familiares",
-  //   "autor": "Saldremos Mejores 1x23",
-  //   "description": "Análisis al núcleo familiar sin pelos en la lengua. Nerea Pérez de las Heras e Inés Hernand diseccionan a las familias estructuradas, pero sobre todo a desestructuradas en España para saber cómo son. Datos y noticias de actualidad, como el caso Pegasus, y una radionovela que te alegrará las comidas de Navidad.",
-  //   "recommender": "Paz",
-  //   "link": "https://open.spotify.com/episode/2JHAFcOswxrKKenp5de6y7",
-  //   "image": "saldremos-mejores.webp"
-  // },
-  // {
-  //   "id": 43,
-  //   "category": "películas / series / documentales",
-  //   "name": "Alcarrás",
-  //   "autor": "Carla Simón",
-  //   "description": "Durante generaciones, la familia Solé, cultiva una gran extensión de melocotoneros en Alcarràs, una pequeña localidad rural de Cataluña. Pero este verano, después de ochenta años cultivando la misma tierra, puede que sea su última cosecha.",
-  //   "recommender": "Loreto",
-  //   "link": "https://www.filmin.es/pelicula/alcarras",
-  //   "image": "alcarras.webp"
-  // },
-  // {
-  //   "id": 44,
-  //   "category": "películas / series / documentales",
-  //   "name": "Separación",
-  //   "autor": "Dan Erickson (Creador), Ben Stiller, Aoife McArdle",
-  //   "description": "Mark Scout (Adam Scott) dirige un equipo en Lumon Industries, cuyos empleados se han sometido a un procedimiento quirúrgico que separa sus recuerdos entre su ámbito laboral y su vida personal. Este atrevido experimento de 'equilibrio entre el trabajo y la vida personal' se pone en tela de juicio cuando Mark se encuentra en el centro de un misterio que lo obligará a confrontar la verdadera naturaleza de su trabajo... y de sí mismo.",
-  //   "recommender": "Loreto",
-  //   "link": "https://tv.apple.com/es/show/separacion/umc.cmc.1srk2goyh2q2zdxcx605w8vtx",
-  //   "image": "separacion.webp"
-  // },
-  // {
-  //   "id": 45,
-  //   "category": "libros / artículos",
-  //   "name": "Lo que nos gusta en la cama",
-  //   "autor": "Marta Jaenes",
-  //   "description": "A muchas nos ha pasado. Sales una noche y conoces a un hombre en un bar. Bebes con él, te gusta y os besáis. Decidís ir a su casa y una vez allí, notas que ya no le interesa hablar, los besos se vuelven ansiosos y las manos desabrochan botones a toda prisa y toquetean de manera ruda...",
-  //   "recommender": "Sabel",
-  //   "link": "https://www.infolibre.es/opinion/ideas-propias/gusta-cama_129_1244711.html",
-  //   "image": "no-image.webp"
-  // },
-  // {
-  //   "id": 46,
-  //   "category": "libros / artículos",
-  //   "name": "Outro conto",
-  //   "autor": "Paula Cermeño",
-  //   "description": "Alba Cobo e Isaac Pujales acaban de poñer en marcha un innovador servizo de menús saudables a domicilio no que o autoamor e a divulgación dunha alimentación intuitiva e non restrictiva forman parte da oferta.",
-  //   "recommender": "Maru",
-  //   "link": "https://amovida.gal/outro-conto-cocina-saudable-contra-a-cultura-da-dieta/",
-  //   "image": "outro-conto.webp"
-  // },
-  // {
-  //   "id": 47,
-  //   "category": "libros / artículos",
-  //   "name": "Cautiverio",
-  //   "autor": "Lucía Lijtmaer",
-  //   "description": "Una novela redonda sobre la huida del dolor como forma de supervivencia y la rebelión ante los roles de género contemporáneos. Es el verano de 2014. Una mujer joven que acaba de ser abandonada por su pareja huye de Barcelona a Madrid con un secreto y la convicción de que el apocalipsis se acerca. Cu...",
-  //   "recommender": "Sabel",
-  //   "link": "https://www.todostuslibros.com/busquedas?keyword=Cauterio+Lijtmaer%2C+Luc%C3%ADa+Editorial+Anagrama+9788433999467",
-  //   "image": "cautiverio.webp"
-  // },
-  // {
-  //   "id": 48,
-  //   "category": "películas / series / documentales",
-  //   "name": "Virunga",
-  //   "autor": "Orlando von Einsiedel",
-  //   "description": "Un grupo de personas valientes arriesgan sus vidas para salvar a los últimos gorilas de montaña del mundo; en medio de una nueva guerra civil y una lucha por los recursos naturales del Congo.",
-  //   "recommender": "Vir",
-  //   "link": "https://www.netflix.com/title/80009431",
-  //   "image": "virunga.webp"
-  // },
-  // {
-  //   "id": 49,
-  //   "category": "películas / series / documentales",
-  //   "name": "El silencio de los otros",
-  //   "autor": "Almudena Carracedo, Robert Bahar",
-  //   "description": "'El silencio de otros' revela la lucha silenciada de las víctimas del largo régimen del General Franco, que continúan buscando justicia hasta nuestros días. Filmado a lo largo de seis años, la película sigue a las víctimas y los supervivientes del régimen franquista a medida que organizan la denominada “querella argentina” y confrontan un “pacto del olvido” sobre los crímenes que padecieron.",
-  //   "recommender": "Vir",
-  //   "link": "https://www.netflix.com/title/81086605",
-  //   "image": "el-silencio-de-los-otros.webp"
-  // },
-  // {
-  //   "id": 50,
-  //   "category": "podcast",
-  //   "name": "Fondos buitre: ¿quiénes son los grandes especuladores del alquiler",
-  //   "autor": "Juanlu Sánchez",
-  //   "description": "'Son los mayores propietarios de vivienda en nuestras grandes ciudades, pero casi nadie les conoce. Son gasolina para el incendio de los precios, pero casi nadie los controla. No los llaman fondos buitre por casualidad. Un grupo de periodistas europeos ha realizado una gran investigación para intentar ponerle nombres y cifras a esas empresas que acaparan y especulan con los pisos mientras los precios no dejan de subir. Parte de esa investigación se publicó hace meses en elDiario.es y ese equipo acaba de ganar el European Press Prize, el premio europeo de periodismo. Al frente está un periodista español, José Miguel Calatayud.",
-  //   "recommender": "Ester",
-  //   "link": "https://open.spotify.com/episode/7zA5o0zLDMCSuP1tp3jKZg?si=2DJ9kDyrTYq8tVppJlRIwQ&nd=1",
-  //   "image": "un-tema-al-dia.webp"
-  // },
-  // {
-  //   "id": 51,
-  //   "category": "libros / artículos",
-  //   "name": "Historia de la disidencia sexual gallega: ...",
-  //   "autor": "Daniel Salgado",
-  //   "description": "Historia de la disidencia sexual gallega: del jardinero que protegió a los gays en la dictadura a las Maribolheras Precárias. Un libro de la historiadora Daniela Ferrández repasa más de un siglo de historia de la “disidencia sexual” en la comunidad",
-  //   "recommender": "Ester",
-  //   "link": "https://www.eldiario.es/galicia/historia-disidencia-sexual-gallega-jardinero-protegio-gays-dictadura-maribolheras-precarias_1_9065732.html",
-  //   "image": "no-image.webp"
-  // },
-  // {
-  //   "id": 52,
-  //   "category": "podcast",
-  //   "name": "A trobadora Laura Lamontagne",
-  //   "autor": "Galicia Emerxe",
-  //   "description": "A partir das Cantigas de Amigo, Laura Lamontagne e Pico Amperio achégannos as orixes da lírica galega co mellor son electrónico e contemporáneo.",
-  //   "recommender": "Maru",
-  //   "link": "https://open.spotify.com/episode/3sNCPSa0V3NBjmdeGyrATT?si=xMuUEbB2TcKxDla2JASYsw&utm_source=whatsapp&nd=1",
-  //   "image": "galicia-emerxe.webp"
-  // },
-  // {
-  //   "id": 53,
-  //   "category": "películas / series / documentales",
-  //   "name": "Mi hija Hildegart",
-  //   "autor": "Fernando Fernan Gómez",
-  //   "description": "Madrid, 1933, Tras haber asesinado a su hija Hildegart, Aurora Rodríguez se entrega a la justicia. En la cárcel, rememora las circunstancias que la movieron a cometer un crimen tan atroz. En su primera infancia, Aurora Rodríguez, testigo de frecuentes desavenencias matrimoniales y de la indiscutible supeditación de las mujeres a los hombres, concibió la idea de tener una hija a la que educaría para que se consagrara a luchar por la liberación de la mujer. Buscó un hombre sano, inteligente y que aceptara renunciar la paternidad de la niña. Hildegart resultó ser tal y como su madre la había imaginado: siendo casi una niña ingresó en el Partido Socialista, a los 16 años, tras concluir la carrera de Derecho, empezaba medicina, y ya escribía artículos y libros. A los 18 era ya muy popular en los círculos intelectuales y revolucionarios. Y a esa edad, una madrugada, su madre la mató.",
-  //   "recommender": "Maru",
-  //   "link": "https://ver.flixole.com/watch/3d5d6450-0451-4b1d-b511-477324c47c17",
-  //   "image": "hildegart.webp"
-  // },
-  // {
-  //   "id": 54,
-  //   "category": "libros / artículos",
-  //   "name": "La pedagogía del abrazo: comprensión, afectividad y cariño por doquier",
-  //   "autor": "Sonia López Iglesias",
-  //   "description": "Una de las cosas que más recuerdo de mi infancia es la suerte que tuve al recibir muchos abrazos. No fui una niña besucona y siempre recurrí a este gesto para expresar mi cariño o pedir aliento. Conservo en mi memoria cómo me los daban mis padres, hermanas, ...",
-  //   "recommender": "Maru",
-  //   "link": "https://elpais.com/mamas-papas/expertos/2022-06-18/la-pedagogia-del-abrazo-comprension-afectividad-y-carino-por-doquier.html?ssm=TW_CM#Echobox=1655578785",
-  //   "image": "no-image.webp"
-  // },
-  // {
-  //   "id": 55,
-  //   "category": "podcast",
-  //   "name": "Orgullo crítico",
-  //   "autor": "Saldremos Mejores 1x31",
-  //   "description": "Junto con TikTok en la semana del Orgullo, Inés y Nerea charlan con varias personas pertenecientes al colectivo y cuyo trabajo ha ayudado a visibilizar la realidad de muchas personas. Antonio Nuño, periodista con perspectiva LGTBI, Sandra Carmona, escritora gitana, Sisi Cáceres, activista y Laura Terciado y Ana Baquera, conductoras del podcast Maldito Bollodrama.",
-  //   "recommender": "Vir",
-  //   "link": "https://open.spotify.com/episode/4toGhsoIJLWYQeYh040zyl?si=vxc1mApyTuWsN9wXWiiDyA&utm_source=whatsapp&nd=1",
-  //   "image": "saldremos-mejores.webp"
-  // },
-  // {
-  //   "id": 56,
-  //   "category": "podcast",
-  //   "name": "La ley del orgullo",
-  //   "autor": "Lo normal Ep.7",
-  //   "description": "En este episodio de Lo Normal abrimos el álbum de fotos icónicas de la lucha del colectivo en nuestro país. Desde la fotografía de activistas por los derechos LGTBIQ+ en la Tribuna del Congreso de los Diputados cuando se aprobó el matrimonio igualitario, hasta la de la primera marcha del Orgullo en España en 1977. Ponemos también el foco en la aprobación de la Ley Trans y de derechos LGTBI por el Consejo de Ministros y Ministras. La columna final del episodio la firma Boti García Rodrigo.",
-  //   "recommender": "Vir",
-  //   "link": "https://open.spotify.com/episode/3jIazNB5Jy1ZRP0X0LWuwD?si=XVFTm-MUQHiJaOGeiF2a_A&utm_source=whatsapp&nd=1",
-  //   "image": "lo-normal.webp"
-  // },
-  // {
-  //   "id": 57,
-  //   "category": "películas / series / documentales",
-  //   "name": "Cómo cambiar tu mente",
-  //   "autor": "Michael Pollan",
-  //   "description": "El autor Michael Pollan presenta esta serie que explora la historia y el uso de los psicodélicos, incluidos el LSD, la psilocibina, el MDMA y la mescalina.",
-  //   "recommender": "Jesús",
-  //   "link": "https://www.netflix.com/title/80229847",
-  //   "image": "como-cambiar-tu-mente.webp"
-  // },
-  // {
-  //   "id": 58,
-  //   "category": "podcast",
-  //   "name": "Cuerpas biopolítica y autogobierno",
-  //   "autor": "Nadie hablará de nosotras 1x1",
-  //   "description": "En este primer podcast nos preguntamos como es la relación que tenemos las personas gordas con nuestros cuerpos. Lo hacemos teniendo en cuenta el sistema social, económico y cultural actual. Y pensando las consecuencias que estos modelos tienen en nuestras vidas. Cuestionando los modelos normativos y buscando otras formas de habitar nuestras cuerpas.",
-  //   "recommender": "Vir",
-  //   "link": "https://open.spotify.com/episode/3Mtoj1XmLinwf8M9fJNTCw?si=3ysDCkxrTe2uU-HqknWhcg&utm_source=whatsapp&nd=1",
-  //   "image": "nadie-hablara-de-nosotras.webp"
-  // },
-  // {
-  //   "id": 59,
-  //   "category": "podcast",
-  //   "name": "Sudakas y gordas: conversaciones más allá de la talla",
-  //   "autor": "Nadie hablará de nosotras 1x9",
-  //   "description": "Este episodio no es un episodio cualquiera, esta vez el control de los micrófonos lo tienen Gabi y Lucre, dos activistas gordas, pero también dos personas migrantes que tienen mucho que decir sobre la relación entre gordofobia, racismo y colonización. Con Cris y Lara acompañándolas nos proponen conceptos para entender las estructuras racistas que heredamos y mantenemos desde hace siglos en Europa. Nuestras amigas nos remueven y proponen mirar los cuerpos racializados, y las vidas de esos cuerpos desde  la dignidad y el respeto. Cuestionando el modelo occidental y revisando la responsabilidad blanca. Este episodio habla de racismo y lo grabamos antes de lo sucedido en Melilla. Os proponemos escucharlo pensando en ello. Además, dedicamos este episodio a cada persona que migra y sufre violencia racista. También os contamos que en este episodio el formato cambia ya que había tanto que decir que hemos tenido que reducir a fragmentos las casi tres horas de conversación que grabamos. Esperamos que os guste.",
-  //   "recommender": "Paz",
-  //   "link": "https://open.spotify.com/episode/4XOVZf1SUbmNJu6YB9raom?si=DjFjBxcpSU-10eqlqzzUmg&utm_source=whatsapp&nd=1",
-  //   "image": "nadie-hablara-de-nosotras.webp"
-  // },
-  // {
-  //   "id": 60,
-  //   "category": "podcast",
-  //   "name": "Ellas brillan en lo oscuro: ...",
-  //   "autor": "Tomo y Lomo Carne Cruda",
-  //   "description": "¿Realmente se está incluyendo a las mujeres en la historia y en la literatura? ¿O solo siguen existiendo como ese nicho llamado “literatura femenina”? Y a punto de arrancar la Feria del Libro de Madrid, en TOMO Y LOMO, Silvia Nanclares y Silvia Herreros de Tejada nos conducen en una travesía de recomendaciones literarias con un trío de autoras que hay que leer: Cristina Oñoro y su libro “Las que faltaban. Una historia del mundo diferente”, Natalia Carrero y “Otra”, en la que relata las memorias ficcionadas de una borracha. Y el viaje por los relatos de la boliviana Liliana Colanzi en “Ustedes brillan en lo oscuro”.",
-  //   "recommender": "Ester",
-  //   "link": "https://open.spotify.com/episode/1vzn0YDA1Xx0XHHCAnWnM3?si=E0_rRa47S46bzKNfDaCdbg&context=spotify%3Ashow%3A56JLkQ1ijviWl0zsPQ6WJr&nd=1",
-  //   "image": "carne-cruda.webp"
-  // },
-  // {
-  //   "id": 61,
-  //   "category": "producto",
-  //   "name": "Detergente en tiras",
-  //   "autor": "Natilum",
-  //   "description": "Pequeñas tiras biodegradables de detergente ecológico, que simplemente se introducen en la lavadora. Cada tira de lavar tiene un poder de limpieza ultra-concentrado e hipoalergénico, que deja tu ropa limpia, suave y con buen olor sin necesidad de usar suavizante. Su fórmula de lavado de baja espuma encuentra y disuelve las manchas, tanto para ropa blanca como de color. Funciona en agua fría o caliente y en todo tipo de lavadoras, incluyendo las de alta eficiencia (HE).",
-  //   "recommender": "Maru",
-  //   "link": "https://natulim.com/",
-  //   "image": "no-image.webp"
-  // },
-  // {
-  //   "id": 62,
-  //   "category": "video",
-  //   "name": "El Apagón - Aquí Vive Gente (Video Oficial) | Un Verano Sin Ti",
-  //   "autor": "Bad Bunny",
-  //   "description": "El apagón es el decimosexto corte del álbum Un verano sin ti de Bad Bunny (2022). El audiovisual oficial -estrenado el 16 de septiembre de 2022- acompaña a un documental titulado Aquí vive gente. Reportado por Bianca Graulau, examina problemas superpuestos de justicia social y económica en Puerto Rico, incluidos apagones de verano por parte de compañías de energía privatizadas, aumentos masivos de alquileres, desarrollo de lujo y vacíos fiscales para extranjeros adinerados.",
-  //   "recommender": "Ana",
-  //   "link": "https://www.youtube.com/watch?v=1TCX_Aqzoo4",
-  //   "image": "bad-bunny.webp"
-  // },
-  // {
-  //   "id": 63,
-  //   "category": "podcast",
-  //   "name": "Gabinete de curiosidades",
-  //   "autor": "Nuria Pérez",
-  //   "description": "Leyendas, historias y relatos sorprendentes narrados por Nuria Pérez",
-  //   "recommender": "Meiga",
-  //   "link": "https://www.gabinetepodcast.com/",
-  //   "image": "gabinete-de-curiosidades.webp"
-  // }
+  {
+    "id": 37,
+    "category": "podcast",
+    "name": "¿Sigue siendo importante la monogamia?",
+    "autor": "Martha Debayle",
+    "description": "Hoy que existen tantas formas de querernos, que no nos enamoramos nada más para tener hijos, ¿sigue siendo importante la monogamia? ¿Qué es eso de casarse para toda la vida, cuando la vida puede durar 90 años? En este episodio de La Historia del Amor, vamos a conocer cómo evolucionamos de un vínculo de pareja hasta la construcción bio-evolutiva, social y cultural de la monogamia.",
+    "recommender": "Jesús",
+    "link": "https://open.spotify.com/episode/4z9AM5VILEdCV1WEXn9SLO",
+    "image": "importante-monogamia.webp"
+  },
+  {
+    "id": 38,
+    "category": "podcast",
+    "name": "Vidas Contadas: Borja Vilaseca",
+    "autor": "https://729.es (productora)",
+    "description": "Vidas contadas es un programa para descubrir a personas que han tenido una vida extraordinaria. Tomar un café con alguien, que te cuente su vida y que su vida sea de las que se cuentan con los dedos de una mano. Más que una entrevista, una conversación tranquila con un personaje relevante que tenga cosas interesantes que contar.",
+    "recommender": "Sabel",
+    "link": "https://open.spotify.com/episode/2Xa6Rp3Hxq7IRdSOCoTjmJ",
+    "image": "vidas-contadas.webp"
+  },
+  {
+    "id": 39,
+    "category": "libros / artículos",
+    "name": "Piropo: una palabra que cayó en desgracia",
+    "autor": "Marta Abad",
+    "description": "El piropo tiene la intención de agradar; si intimida, no es piropo, es agresión. El piropo envuelve, arropa, da calidez; si produce quemazón, no es piropo, es ataque,",
+    "recommender": "Paz",
+    "link": "https://www.eldiario.es/opinion/zona-critica/piropo-palabra-cayo-desgracia_129_8902779.html",
+    "image": "piropo.webp"
+  }, 
+  {
+    "id": 40,
+    "category": "video",
+    "name": "Pájaros",
+    "autor": "Cruhda | Judit Adataberna | Humo Internacional",
+    "description": "Después de dos años de silencio editorial desde el rotundo “Ibera Morte”, Cruhda presenta su segundo trabajo con el título “Lux Ahena”, un álbum que concluye su particular díptico sonoro de la España negra. Lux Ahena significa luz de bronce, una luz que se busca desde la oscuridad a lo largo de todo el álbum, en un viaje de fricciones y encuentros entre lo que Kae Tempest y Carl Jung llamarían: El Espíritu de las Profundidades y el Espíritu de los Tiempos. La desolación política que golpea Madrid hunde a la artista en este viaje sonoro que produjo y grabó en soledad con la ayuda de la residencia de Matadero Madrid para mujeres en la música electrónica. Cruhda retorna a la tierra vs. el estado y a la poesía vs. la ley en un álbum anárquico que se expresa musicalmente a través de sintetizadores, grabaciones de campo, samplers, clarinete y voz.",
+    "recommender": "Ana",
+    "link": "https://www.youtube.com/watch?v=FqDBZWBLCcs",
+    "image": "cruhda-lux-ahena.webp"
+  },
+  {
+    "id": 41,
+    "category": "podcast",
+    "name": "Innovación rural, la idea que nace en un granero.",
+    "autor": "Carne Cruda",
+    "description": "El mundo rural está lleno de personas, iniciativas y empresas que demuestran que los pueblos también son laboratorios de innovación social. Hoy rompemos estigmas y desmontamos estereotipos junto a Revista Salvaje y su directora, Annabel Roda, y hablamos de ideas que quieren cambiar el mundo, de innovación desde los pueblos, de emprendimiento en las zonas rurales y de compromiso social.",
+    "recommender": "Maru",
+    "link": "https://open.spotify.com/episode/0iXGoRj5P1Ejrmel3J3hGu",
+    "image": "carne-cruda.webp"
+  },
+  {
+    "id": 42,
+    "category": "podcast",
+    "name": "Estruc-turras familiares",
+    "autor": "Saldremos Mejores 1x23",
+    "description": "Análisis al núcleo familiar sin pelos en la lengua. Nerea Pérez de las Heras e Inés Hernand diseccionan a las familias estructuradas, pero sobre todo a desestructuradas en España para saber cómo son. Datos y noticias de actualidad, como el caso Pegasus, y una radionovela que te alegrará las comidas de Navidad.",
+    "recommender": "Paz",
+    "link": "https://open.spotify.com/episode/2JHAFcOswxrKKenp5de6y7",
+    "image": "saldremos-mejores.webp"
+  },
+  {
+    "id": 43,
+    "category": "películas / series / documentales",
+    "name": "Alcarrás",
+    "autor": "Carla Simón",
+    "description": "Durante generaciones, la familia Solé, cultiva una gran extensión de melocotoneros en Alcarràs, una pequeña localidad rural de Cataluña. Pero este verano, después de ochenta años cultivando la misma tierra, puede que sea su última cosecha.",
+    "recommender": "Loreto",
+    "link": "https://www.filmin.es/pelicula/alcarras",
+    "image": "alcarras.webp"
+  },
+  {
+    "id": 44,
+    "category": "películas / series / documentales",
+    "name": "Separación",
+    "autor": "Dan Erickson (Creador), Ben Stiller, Aoife McArdle",
+    "description": "Mark Scout (Adam Scott) dirige un equipo en Lumon Industries, cuyos empleados se han sometido a un procedimiento quirúrgico que separa sus recuerdos entre su ámbito laboral y su vida personal. Este atrevido experimento de 'equilibrio entre el trabajo y la vida personal' se pone en tela de juicio cuando Mark se encuentra en el centro de un misterio que lo obligará a confrontar la verdadera naturaleza de su trabajo... y de sí mismo.",
+    "recommender": "Loreto",
+    "link": "https://tv.apple.com/es/show/separacion/umc.cmc.1srk2goyh2q2zdxcx605w8vtx",
+    "image": "separacion.webp"
+  },
+  {
+    "id": 45,
+    "category": "libros / artículos",
+    "name": "Lo que nos gusta en la cama",
+    "autor": "Marta Jaenes",
+    "description": "A muchas nos ha pasado. Sales una noche y conoces a un hombre en un bar. Bebes con él, te gusta y os besáis. Decidís ir a su casa y una vez allí, notas que ya no le interesa hablar, los besos se vuelven ansiosos y las manos desabrochan botones a toda prisa y toquetean de manera ruda...",
+    "recommender": "Sabel",
+    "link": "https://www.infolibre.es/opinion/ideas-propias/gusta-cama_129_1244711.html",
+    "image": "no-image.webp"
+  }, 
+  {
+    "id": 46,
+    "category": "libros / artículos",
+    "name": "Outro conto",
+    "autor": "Paula Cermeño",
+    "description": "Alba Cobo e Isaac Pujales acaban de poñer en marcha un innovador servizo de menús saudables a domicilio no que o autoamor e a divulgación dunha alimentación intuitiva e non restrictiva forman parte da oferta.",
+    "recommender": "Maru",
+    "link": "https://amovida.gal/outro-conto-cocina-saudable-contra-a-cultura-da-dieta/",
+    "image": "outro-conto.webp"
+  },
+  {
+    "id": 47,
+    "category": "libros / artículos",
+    "name": "Cautiverio",
+    "autor": "Lucía Lijtmaer",
+    "description": "Una novela redonda sobre la huida del dolor como forma de supervivencia y la rebelión ante los roles de género contemporáneos. Es el verano de 2014. Una mujer joven que acaba de ser abandonada por su pareja huye de Barcelona a Madrid con un secreto y la convicción de que el apocalipsis se acerca. Cu...",
+    "recommender": "Sabel",
+    "link": "https://www.todostuslibros.com/busquedas?keyword=Cauterio+Lijtmaer%2C+Luc%C3%ADa+Editorial+Anagrama+9788433999467",
+    "image": "cautiverio.webp"
+  },
+  {
+    "id": 48,
+    "category": "películas / series / documentales",
+    "name": "Virunga",
+    "autor": "Orlando von Einsiedel",
+    "description": "Un grupo de personas valientes arriesgan sus vidas para salvar a los últimos gorilas de montaña del mundo; en medio de una nueva guerra civil y una lucha por los recursos naturales del Congo.",
+    "recommender": "Vir",
+    "link": "https://www.netflix.com/title/80009431",
+    "image": "virunga.webp"
+  },
+  {
+    "id": 49,
+    "category": "películas / series / documentales",
+    "name": "El silencio de los otros",
+    "autor": "Almudena Carracedo, Robert Bahar",
+    "description": "'El silencio de otros' revela la lucha silenciada de las víctimas del largo régimen del General Franco, que continúan buscando justicia hasta nuestros días. Filmado a lo largo de seis años, la película sigue a las víctimas y los supervivientes del régimen franquista a medida que organizan la denominada “querella argentina” y confrontan un “pacto del olvido” sobre los crímenes que padecieron.",
+    "recommender": "Vir",
+    "link": "https://www.netflix.com/title/81086605",
+    "image": "el-silencio-de-los-otros.webp"
+  },
+  {
+    "id": 50,
+    "category": "podcast",
+    "name": "Fondos buitre: ¿quiénes son los grandes especuladores del alquiler",
+    "autor": "Juanlu Sánchez",
+    "description": "'Son los mayores propietarios de vivienda en nuestras grandes ciudades, pero casi nadie les conoce. Son gasolina para el incendio de los precios, pero casi nadie los controla. No los llaman fondos buitre por casualidad. Un grupo de periodistas europeos ha realizado una gran investigación para intentar ponerle nombres y cifras a esas empresas que acaparan y especulan con los pisos mientras los precios no dejan de subir. Parte de esa investigación se publicó hace meses en elDiario.es y ese equipo acaba de ganar el European Press Prize, el premio europeo de periodismo. Al frente está un periodista español, José Miguel Calatayud.",
+    "recommender": "Ester",
+    "link": "https://open.spotify.com/episode/7zA5o0zLDMCSuP1tp3jKZg?si=2DJ9kDyrTYq8tVppJlRIwQ&nd=1",
+    "image": "un-tema-al-dia.webp"
+  },
+  {
+    "id": 51,
+    "category": "libros / artículos",
+    "name": "Historia de la disidencia sexual gallega: ...",
+    "autor": "Daniel Salgado",
+    "description": "Historia de la disidencia sexual gallega: del jardinero que protegió a los gays en la dictadura a las Maribolheras Precárias. Un libro de la historiadora Daniela Ferrández repasa más de un siglo de historia de la “disidencia sexual” en la comunidad",
+    "recommender": "Ester",
+    "link": "https://www.eldiario.es/galicia/historia-disidencia-sexual-gallega-jardinero-protegio-gays-dictadura-maribolheras-precarias_1_9065732.html",
+    "image": "no-image.webp"
+  },
+  {
+    "id": 52,
+    "category": "podcast",
+    "name": "A trobadora Laura Lamontagne",
+    "autor": "Galicia Emerxe",
+    "description": "A partir das Cantigas de Amigo, Laura Lamontagne e Pico Amperio achégannos as orixes da lírica galega co mellor son electrónico e contemporáneo.",
+    "recommender": "Maru",
+    "link": "https://open.spotify.com/episode/3sNCPSa0V3NBjmdeGyrATT?si=xMuUEbB2TcKxDla2JASYsw&utm_source=whatsapp&nd=1",
+    "image": "galicia-emerxe.webp"
+  },
+  {
+    "id": 53,
+    "category": "películas / series / documentales",
+    "name": "Mi hija Hildegart",
+    "autor": "Fernando Fernan Gómez",
+    "description": "Madrid, 1933, Tras haber asesinado a su hija Hildegart, Aurora Rodríguez se entrega a la justicia. En la cárcel, rememora las circunstancias que la movieron a cometer un crimen tan atroz. En su primera infancia, Aurora Rodríguez, testigo de frecuentes desavenencias matrimoniales y de la indiscutible supeditación de las mujeres a los hombres, concibió la idea de tener una hija a la que educaría para que se consagrara a luchar por la liberación de la mujer. Buscó un hombre sano, inteligente y que aceptara renunciar la paternidad de la niña. Hildegart resultó ser tal y como su madre la había imaginado: siendo casi una niña ingresó en el Partido Socialista, a los 16 años, tras concluir la carrera de Derecho, empezaba medicina, y ya escribía artículos y libros. A los 18 era ya muy popular en los círculos intelectuales y revolucionarios. Y a esa edad, una madrugada, su madre la mató.",
+    "recommender": "Maru",
+    "link": "https://ver.flixole.com/watch/3d5d6450-0451-4b1d-b511-477324c47c17",
+    "image": "hildegart.webp"
+  },
+  {
+    "id": 54,
+    "category": "libros / artículos",
+    "name": "La pedagogía del abrazo: comprensión, afectividad y cariño por doquier",
+    "autor": "Sonia López Iglesias",
+    "description": "Una de las cosas que más recuerdo de mi infancia es la suerte que tuve al recibir muchos abrazos. No fui una niña besucona y siempre recurrí a este gesto para expresar mi cariño o pedir aliento. Conservo en mi memoria cómo me los daban mis padres, hermanas, ...",
+    "recommender": "Maru",
+    "link": "https://elpais.com/mamas-papas/expertos/2022-06-18/la-pedagogia-del-abrazo-comprension-afectividad-y-carino-por-doquier.html?ssm=TW_CM#Echobox=1655578785",
+    "image": "no-image.webp"
+  },
+  {
+    "id": 55,
+    "category": "podcast",
+    "name": "Orgullo crítico",
+    "autor": "Saldremos Mejores 1x31",
+    "description": "Junto con TikTok en la semana del Orgullo, Inés y Nerea charlan con varias personas pertenecientes al colectivo y cuyo trabajo ha ayudado a visibilizar la realidad de muchas personas. Antonio Nuño, periodista con perspectiva LGTBI, Sandra Carmona, escritora gitana, Sisi Cáceres, activista y Laura Terciado y Ana Baquera, conductoras del podcast Maldito Bollodrama.",
+    "recommender": "Vir",
+    "link": "https://open.spotify.com/episode/4toGhsoIJLWYQeYh040zyl?si=vxc1mApyTuWsN9wXWiiDyA&utm_source=whatsapp&nd=1",
+    "image": "saldremos-mejores.webp"
+  },
+  {
+    "id": 56,
+    "category": "podcast",
+    "name": "La ley del orgullo",
+    "autor": "Lo normal Ep.7",
+    "description": "En este episodio de Lo Normal abrimos el álbum de fotos icónicas de la lucha del colectivo en nuestro país. Desde la fotografía de activistas por los derechos LGTBIQ+ en la Tribuna del Congreso de los Diputados cuando se aprobó el matrimonio igualitario, hasta la de la primera marcha del Orgullo en España en 1977. Ponemos también el foco en la aprobación de la Ley Trans y de derechos LGTBI por el Consejo de Ministros y Ministras. La columna final del episodio la firma Boti García Rodrigo.",
+    "recommender": "Vir",
+    "link": "https://open.spotify.com/episode/3jIazNB5Jy1ZRP0X0LWuwD?si=XVFTm-MUQHiJaOGeiF2a_A&utm_source=whatsapp&nd=1",
+    "image": "lo-normal.webp"
+  },
+  {
+    "id": 57,
+    "category": "películas / series / documentales",
+    "name": "Cómo cambiar tu mente",
+    "autor": "Michael Pollan",
+    "description": "El autor Michael Pollan presenta esta serie que explora la historia y el uso de los psicodélicos, incluidos el LSD, la psilocibina, el MDMA y la mescalina.",
+    "recommender": "Jesús",
+    "link": "https://www.netflix.com/title/80229847",
+    "image": "como-cambiar-tu-mente.webp"
+  },
+  {
+    "id": 58,
+    "category": "podcast",
+    "name": "Cuerpas biopolítica y autogobierno",
+    "autor": "Nadie hablará de nosotras 1x1",
+    "description": "En este primer podcast nos preguntamos como es la relación que tenemos las personas gordas con nuestros cuerpos. Lo hacemos teniendo en cuenta el sistema social, económico y cultural actual. Y pensando las consecuencias que estos modelos tienen en nuestras vidas. Cuestionando los modelos normativos y buscando otras formas de habitar nuestras cuerpas.",
+    "recommender": "Vir",
+    "link": "https://open.spotify.com/episode/3Mtoj1XmLinwf8M9fJNTCw?si=3ysDCkxrTe2uU-HqknWhcg&utm_source=whatsapp&nd=1",
+    "image": "nadie-hablara-de-nosotras.webp"
+  },
+  {
+    "id": 59,
+    "category": "podcast",
+    "name": "Sudakas y gordas: conversaciones más allá de la talla",
+    "autor": "Nadie hablará de nosotras 1x9",
+    "description": "Este episodio no es un episodio cualquiera, esta vez el control de los micrófonos lo tienen Gabi y Lucre, dos activistas gordas, pero también dos personas migrantes que tienen mucho que decir sobre la relación entre gordofobia, racismo y colonización. Con Cris y Lara acompañándolas nos proponen conceptos para entender las estructuras racistas que heredamos y mantenemos desde hace siglos en Europa. Nuestras amigas nos remueven y proponen mirar los cuerpos racializados, y las vidas de esos cuerpos desde  la dignidad y el respeto. Cuestionando el modelo occidental y revisando la responsabilidad blanca. Este episodio habla de racismo y lo grabamos antes de lo sucedido en Melilla. Os proponemos escucharlo pensando en ello. Además, dedicamos este episodio a cada persona que migra y sufre violencia racista. También os contamos que en este episodio el formato cambia ya que había tanto que decir que hemos tenido que reducir a fragmentos las casi tres horas de conversación que grabamos. Esperamos que os guste.",
+    "recommender": "Paz",
+    "link": "https://open.spotify.com/episode/4XOVZf1SUbmNJu6YB9raom?si=DjFjBxcpSU-10eqlqzzUmg&utm_source=whatsapp&nd=1",
+    "image": "nadie-hablara-de-nosotras.webp"
+  },
+  {
+    "id": 60,
+    "category": "podcast",
+    "name": "Ellas brillan en lo oscuro: ...",
+    "autor": "Tomo y Lomo Carne Cruda",
+    "description": "¿Realmente se está incluyendo a las mujeres en la historia y en la literatura? ¿O solo siguen existiendo como ese nicho llamado “literatura femenina”? Y a punto de arrancar la Feria del Libro de Madrid, en TOMO Y LOMO, Silvia Nanclares y Silvia Herreros de Tejada nos conducen en una travesía de recomendaciones literarias con un trío de autoras que hay que leer: Cristina Oñoro y su libro “Las que faltaban. Una historia del mundo diferente”, Natalia Carrero y “Otra”, en la que relata las memorias ficcionadas de una borracha. Y el viaje por los relatos de la boliviana Liliana Colanzi en “Ustedes brillan en lo oscuro”.",
+    "recommender": "Ester",
+    "link": "https://open.spotify.com/episode/1vzn0YDA1Xx0XHHCAnWnM3?si=E0_rRa47S46bzKNfDaCdbg&context=spotify%3Ashow%3A56JLkQ1ijviWl0zsPQ6WJr&nd=1",
+    "image": "carne-cruda.webp"
+  },
+  {
+    "id": 61,
+    "category": "producto",
+    "name": "Detergente en tiras",
+    "autor": "Natilum",
+    "description": "Pequeñas tiras biodegradables de detergente ecológico, que simplemente se introducen en la lavadora. Cada tira de lavar tiene un poder de limpieza ultra-concentrado e hipoalergénico, que deja tu ropa limpia, suave y con buen olor sin necesidad de usar suavizante. Su fórmula de lavado de baja espuma encuentra y disuelve las manchas, tanto para ropa blanca como de color. Funciona en agua fría o caliente y en todo tipo de lavadoras, incluyendo las de alta eficiencia (HE).",
+    "recommender": "Maru",
+    "link": "https://natulim.com/",
+    "image": "no-image.webp"
+  },
+  {
+    "id": 62,
+    "category": "video",
+    "name": "El Apagón - Aquí Vive Gente (Video Oficial) | Un Verano Sin Ti",
+    "autor": "Bad Bunny",
+    "description": "El apagón es el decimosexto corte del álbum Un verano sin ti de Bad Bunny (2022). El audiovisual oficial -estrenado el 16 de septiembre de 2022- acompaña a un documental titulado Aquí vive gente. Reportado por Bianca Graulau, examina problemas superpuestos de justicia social y económica en Puerto Rico, incluidos apagones de verano por parte de compañías de energía privatizadas, aumentos masivos de alquileres, desarrollo de lujo y vacíos fiscales para extranjeros adinerados.",
+    "recommender": "Ana",
+    "link": "https://www.youtube.com/watch?v=1TCX_Aqzoo4",
+    "image": "bad-bunny.webp"
+  },
+  {
+    "id": 63,
+    "category": "podcast",
+    "name": "Gabinete de curiosidades",
+    "autor": "Nuria Pérez",
+    "description": "Leyendas, historias y relatos sorprendentes narrados por Nuria Pérez",
+    "recommender": "Meiga",
+    "link": "https://www.gabinetepodcast.com/",
+    "image": "gabinete-de-curiosidades.webp"
+  }
 ]
