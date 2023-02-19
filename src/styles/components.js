@@ -233,7 +233,8 @@ export const StyledSuggestionInfo = styled.div`
       color: ${colors.green};
       font-weight: bold;
       font-size: 1.5rem;
-      margin: 0;
+      margin-top: 0;
+      margin-bottom: 0.5rem;
     }
     small {
       color: ${colors.darkBlue};

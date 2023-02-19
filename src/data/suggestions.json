@@ -638,5 +638,55 @@
     "recommender": "Loreto",
     "link": "https://www.primevideo.com/detail/0RSU4JWOGGX915XGBODNHVS5UG/ref=atv_sr_fle_c_Tn74RA_1_1_1?sr=1-1&pageTypeIdSource=ASIN&pageTypeId=B0B2ZSYNNC&qid=1664115152867",
     "image": "league-of-their-own.webp"
+  },
+  {
+    "id": 65,
+    "category": "películas / series / documentales",
+    "name": "Vida perfecta",
+    "autor": "Leticia Dolera, Manuel Burque",
+    "description": "Serie que se adentra en la vida de tres mujeres que, habiendo superado la treintena, están en plena crisis existencial. La primera de ellas es María (Leticia Dolera), una dentista calculadora que, cuando está a punto de ejecutar su plan de vida, éste se va al traste y entonces decide dejarse llevar y comete una locura con consecuencias. La segunda es la hermana de María, Esther (Aixa Villagrán), una pintora que no logra vivir de su arte. Es una mujer muy divertida, carismática y hedonista, que no tiene miedo a que le juzguen, pero que se ha quedado en la adolescencia y no acaba de encontrarse. Y por último se encuentra la amiga de ambas, Cristina (Celia Freijerio), una abogada en lo más alto de su carrera, casada y con dos hijas que, pese a llevar la vida que siempre había soñado, se siente profundamente vacía e infeliz.",
+    "recommender": "Meiga",
+    "link": "https://vidaperfecta.movistarplus.es/",
+    "image": "vida_perfecta.webp"
+  },
+  {
+    "id": 66,
+    "category": "libros / artículos",
+    "name": "El acontecimiento",
+    "autor": "Annie Ernaux",
+    "description": "En octubre de 1963, cuando Annie Ernaux se halla en Ruán estudiando filología, descubre que está embarazada. Desde el primer momento no le cabe la menor duda de que no quiere tener esa criatura no deseada. En una sociedad en la que se penaliza el aborto con prisión y multa, se encuentra sola; hasta su pareja se desentiende del asunto. Además del desamparo y la discriminación por parte de una sociedad que le vuelve la espalda, queda la lucha frente al profundo horror y dolor de un aborto clandestino.",
+    "recommender": "Meiga",
+    "link": "https://www.todostuslibros.com/libros/el-acontecimiento_978-84-9066-756-9",
+    "image": "acontecimiento.webp"
+  },
+  {
+    "id": 67,
+    "category": "películas / series / documentales",
+    "name": "La comedia de Dios",
+    "autor": "João César Monteiro",
+    "description": "Un maduro y fetichista artesano del helado portugués, João de Deus, seduce a jóvenes y bellas señoritas para poder colmar sus extrañas obsesiones sexuales, como aumentar su colección de vello púbico. Cuando la hija de un carnicero de la localidad se convierte en su último objeto de deseo, empezarán los problemas...",
+    "recommender": "Vir",
+    "link": "https://www.filmaffinity.com/es/evideos.php?movie_id=619388",
+    "image": "comedia_dios.webp"
+  },
+  {
+    "id": 68,
+    "category": "películas / series / documentales",
+    "name": "Petite Maman",
+    "autor": "Céline Sciamma",
+    "description": "Nelly tiene 8 años y acaba de perder a su abuela. Mientras ayuda a sus padres a vaciar la casa en la que su madre creció, explora intrigada el bosque que la rodea, donde su mamá solía jugar de pequeña. Allí Nelly conoce a otra niña de su edad, y la inmediata conexión entre ambas da paso a una preciosa amistad. Juntas construyen una cabaña en el bosque y, entre juegos y confidencias, desvelarán un fascinante secreto.",
+    "recommender": "Meiga",
+    "link": "https://ver.movistarplus.es/ficha/petite-maman?id=1935027&id_perfil=OTT&suscripcion=UT-PROMO_BANNER_1,UT-UTE0H,UT-UTXCP,UT-UTXGW&demarcation=19",
+    "image": "petite_maman.webp"
+  },
+  {
+    "id": 69,
+    "category": "películas / series / documentales",
+    "name": "Close",
+    "autor": "Lukas Dhont",
+    "description": "Léo y Rémi, de 13 años, son amigos de toda la vida. Hasta que un suceso impensable los separa. Léo se acerca entonces a Sophie, la madre de Rémi, para tratar de entender.",
+    "recommender": "Loreto",
+    "link": "https://www.justwatch.com/es/pelicula/close",
+    "image": "close.webp"
   }
 ]
