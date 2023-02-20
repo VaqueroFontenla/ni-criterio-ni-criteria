@@ -778,5 +778,95 @@
     "recommender": "Meiga",
     "link": "https://www.todostuslibros.com/libros/temporada-de-huracanes-mapa-de-las-lenguas_978-84-397-3390-4",
     "image": "temporada_huracanes.webp"
+  },
+  {
+    "id": 79,
+    "category": "películas / series / documentales",
+    "name": "El triángulo de la tristeza",
+    "autor": "Ruben Östlund",
+    "description": "Tras la Semana de la moda, Carl y Yaya, pareja de modelos e influencers, son invitados a un yate en un crucero de lujo. Mientras que la tripulación brinda todas las atenciones necesarias a los ricos invitados, el capitán se niega a salir de su cabina, a pesar de la llegada inminente de la célebre cena de gala. Los eventos toman un giro inesperado y el equilibrio de poder se invierte cuando se levanta una tormenta que pone en peligro el confort de los pasajeros.",
+    "recommender": "Meiga",
+    "link": "https://www.justwatch.com/es/pelicula/triangle-of-sadness",
+    "image": "triangulo_tristeza.webp"
+  },
+  {
+    "id": 80,
+    "category": "libros / artículos",
+    "name": "Caliban y la bruja",
+    "autor": "Silvia Federici",
+    "description": "De la emancipación de la servidumbre a las herejías subversivas, un hilo rojo recorre la historia de la transición del feudalismo al capitalismo. Todavía hoy expurgado de la gran mayoría de los manuales de historia, la imposición de los poderes del Estado y el nacimiento de esa formación social que acabarí por tomar el nomb re de capitalimo no se produjeron sin el recurso a la violencia extrema. La acumulación originaria exigióla derrota de los movimientos urbanos y campesinos, que normalmente bajo la forma de herejía religiosa reivindicaron y pusieron en práctica diversos experimentos de vida comunal y reparto de riqueza. Su aniquilación abrió el camino a la formación del Estado moderno, la expropiación y cercado de las tierras comunes, la conquista y el expolio de América, la apertura del comercio de esclavos a gran escala y una guerra contra las formas de vida y las culturas populares que tomó a las mujeres como su principal objetivo. Al analizar la quema de brujas, Federici no sólo desentraña uno de los episodios más inefables de la historia moderna, sino el corazón de una poderosa dinámica de expropiación social dirigida sobre el cuerpo, los saberes y la reproducción de las mujeres. Esta obra es también el registro de unas voces imprevistas (las de los subalternos: Calibán y la bruja) que todavía hoy resuenan con fuerza en las luchas que resisten a la continua actualización de la violencia originaria.",
+    "recommender": "Meiga",
+    "link": "https://traficantes.net/sites/default/files/pdfs/Caliban%20y%20la%20bruja-TdS.pdf",
+    "image": "caliban.webp"
+  },
+  {
+    "id": 81,
+    "category": "películas / series / documentales",
+    "name": "Espíritu sagrado",
+    "autor": "Chema García Ibarra",
+    "description": "Julio está muerto. Es una noticia terrible para OVNI Levante, la asociación de aficionados a la ufología que él dirigió. La muerte le golpea con especial fuerza a uno de sus miembros, José Manuel. Julio y él tenían un proyecto común de vital importancia. Ahora deberá continuar solo como único conocedor del secreto cósmico que puede alterar el porvenir humano. Mientras tanto, en España se busca a una niña que desapareció hace semanas.",
+    "recommender": "Loreto",
+    "link": "https://www.filmin.es/pelicula/espiritu-sagrado",
+    "image": "espiritu_sagrado.webp"
+  },
+  {
+    "id": 82,
+    "category": "películas / series / documentales",
+    "name": "Las muertes chiquitas",
+    "autor": "Mireia Sallarès",
+    "description": "Las Muertes Chiquitas es resultado de cuatro años de trabajo de Mireia Sallarès, un proyecto interdisciplinario concentrado en las entrevistas a más de treinta mujeres de México de diferentes zonas del país; mujeres de diversas edades, estratos sociales, profesiones y religiones. Sus historias de vida nos llevan a conocer sucesos relacionados con los feminicidios de Ciudad Juárez, con las prostitutas de barrios marginados, con profesoras de universidad, exiliadas de guerras europeas, seropositivas y homosexuales o transexuales, ex guerrilleras de los años setenta, burguesas, indígenas, estudiantes, madres, abuelas, hijas... mujeres.",
+    "recommender": "Ester",
+    "link": "https://www.filmin.es/serie/las-muertes-chiquitas",
+    "image": "muertes_chiquitas.webp"
+  },
+  {
+    "id": 83,
+    "category": "podcasts",
+    "name": "Death of an artist",
+    "autor": "HELEN MOLESWORTH",
+    "description": "Was the famous sculptor Carl Andre involved in the death of his up-and-coming artist wife Ana Mendieta? For over 35 years, accusations of murder shrouded one of the art world’s most storied couples. They were a textbook case of opposites attract. Andre was famous, rich, white, and within the small coterie of the artworld, powerful. Mendieta was a Cuban refugee, a diminutive woman, working at the edge of the Avant Garde. Just months after their wedding, Andre called 911 saying they had a fight and Mendieta “went out the window” of their 34th floor apartment. Andre was charged with murder and the art world split in two. Host Helen Molesworth revisits Mendieta’s death and the trial that followed, and interrogates both the silence and the protest that have accompanied this story ever since. A co-production between Pushkin Industries and Somethin’ Else, a Sony Music Entertainment company.",
+    "recommender": "Meiga",
+    "link": "https://www.pushkin.fm/podcasts/death-of-an-artist",
+    "image": "death_artist.webp"
+  },
+  {
+    "id": 84,
+    "category": "películas / series / documentales",
+    "name": "The White Lotus",
+    "autor": "Mike White",
+    "description": "Serie de TV (2021). Primera temporada: 6 episodios. Retrata las vacaciones de varios huéspedes de un resort tropical, durante una semana, mientras se relajan y rejuvenecen en el paraíso. Pero cada día que pasa, surge una complejidad más oscura en la vida de estos viajeros perfectos, los risueños empleados del hotel y ese lugar idílico.",
+    "recommender": "Vir",
+    "link": "https://www.hbo.com/the-white-lotus",
+    "image": "white_lotus.webp"
+  },
+  {
+    "id": 85,
+    "category": "libros / artículos",
+    "name": "Cenizas en la boca",
+    "autor": "Brenda Navarro",
+    "description": "Diego salta desde un quinto piso y desde entonces esa imagen no deja de taladrarle la cabeza a su hermana: seis segundos y un cuerpo estrellándose contra el suelo. Es ella quien echa la vista atrás y cuenta la historia de los dos hermanos. Su llegada al mundo en un hogar en el que la vida nunca fue justa. Los años que pasaron en México con sus abuelos, mientras su madre se buscaba la vida en España, y era ella, aún niña, quien se hacía cargo de Diego. La etapa en Madrid, una ciudad que no entendían y que tampoco los entendía a ellos. La primera separación, cuando ella se marchó a Barcelona a abrirse camino y su hermano se quedó en el lugar que más odiaba. Y su regreso, cargando las cenizas de Diego, a un México muy distinto al que recordaba. Esta novela narra el viaje emocional de una joven que intuye las razones del suicidio de su hermano y protagoniza su propio síndrome de Ulises, en el que ni la ida ni la vuelta son realmente destino. Una historia de separaciones y abandonos, de pérdida e iniciación a la vida, en la que Brenda Navarro aborda con enorme valentía cuestiones esquivas como la desigualdad, la xenofobia o el desarraigo, y que la confirma como una de las narradoras más potentes y audaces de nuestra literatura. Escrito con el alma y las entrañas, Ceniza en la boca es un libro que quema y plantea la dolorosa pregunta de qué vida merece la pena ser vivida.",
+    "recommender": "Ester",
+    "link": "https://www.todostuslibros.com/libros/ceniza-en-la-boca_978-84-18342-71-4",
+    "image": "cenizas_boca.webp"
+  },
+  {
+    "id": 86,
+    "category": "películas / series / documentales",
+    "name": "As bestas",
+    "autor": "Rodrigo Sorogoyen",
+    "description": "Antoine y Olga son una pareja francesa que se instaló hace tiempo en una aldea del interior de Galicia. Allí llevan una vida tranquila, aunque su convivencia con los lugareños no es tan idílica como desearían. Un conflicto con sus vecinos, los hermanos Anta, hará que la tensión crezca en la aldea hasta alcanzar un punto de no retorno.",
+    "recommender": "Loreto",
+    "link": "https://www.justwatch.com/es/pelicula/as-bestas",
+    "image": "bestas.webp"
+  },
+  {
+    "id": 87,
+    "category": "películas / series / documentales",
+    "name": "Sospechosas inesperadas",
+    "autor": "Natalie Bailey, Melvin J. Montalban",
+    "description": "Miniserie de TV (2021). 4 episodios. Cuando un collar millonario es robado de la casa de la empresaria Roxanne Water en un elaborado atraco, la investigación policial saca a relucir las grietas de la reluciente fachada del este de Sidney.",
+    "recommender": "Ester",
+    "link": "https://www.filmin.es/serie/sospechosas-inesperadas",
+    "image": "sospechosas_inesperadas.webp"
   }
 ]
