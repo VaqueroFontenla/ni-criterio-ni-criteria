@@ -688,5 +688,95 @@
     "recommender": "Loreto",
     "link": "https://www.justwatch.com/es/pelicula/close",
     "image": "close.webp"
+  },
+  {
+    "id": 70,
+    "category": "películas / series / documentales",
+    "name": "Catalina",
+    "autor": "Daniel Garibaldi Mata",
+    "description": "Catalina es una mujer que por azares de la vida radica sola en la ciudad, se adentra en la tercera edad y no tiene compañía, hasta que un día encuentra un mensaje en su puerta que no hace más que relanzar su esperanza y reavivar sus emociones.",
+    "recommender": "Vir",
+    "link": "https://www.youtube.com/watch?v=Yjj84uAWeco",
+    "image": "catalina.webp"
+  },
+  {
+    "id": 71,
+    "category": "películas / series / documentales",
+    "name": "Vecinooo",
+    "autor": "Paco León",
+    "description": "Un hombre que vive solo durante la cuarentena del COVID-19 comienza a hablar con su vecina de arriba a través de los respiradores del baño. Corto producido por 'Xiaomi' y realizado íntegramente por Paco León",
+    "recommender": "Vir",
+    "link": "https://www.youtube.com/watch?v=DzMqy5KPVIk",
+    "image": "vecino.webp"
+  },
+  {
+    "id": 72,
+    "category": "películas / series / documentales",
+    "name": "Paloma",
+    "autor": "Marcelo Gomes",
+    "description": "Paloma, una trabajadora agrícola, quiere celebrar una boda tradicional en una iglesia con su novio Zé. El cura local rechaza su petición. Pero Paloma, una mujer transexual, luchará por su sueño",
+    "recommender": "Meiga",
+    "link": "https://m.imdb.com/title/tt12144262/",
+    "image": "paloma.webp"
+  },
+  {
+    "id": 73,
+    "category": "libros / artículos",
+    "name": "Ofendiditos",
+    "autor": "@Shine_McShine",
+    "description": "Hilo de Twitter sobre contenedores repletos de obras de arte guardados en los llamados Puertos Libres",
+    "recommender": "Paz",
+    "link": "https://mobile.twitter.com/Shine_McShine/status/1262020278282051584",
+    "image": "no-image.webp"
+  },
+  {
+    "id": 74,
+    "category": "películas / series / documentales",
+    "name": "El colapso",
+    "autor": "Jérémy Bernard, Guillaume Desjardins, Bastien Ughetto",
+    "description": "Miniserie de TV (2019). 8 episodios. 20 minutos cada uno, filmados todos ellos en plano secuencia. Un suceso -del que desconocemos las causas y el origen- ha provocado el colapso de la sociedad -la francesa y se sobreentiende que la mundial-, y es la espoleta que provoca una serie de historias independientes en diferentes localizaciones, que comparten la desesperación y la huida de las personas que intentan sobrevivir.",
+    "recommender": "Vir",
+    "link": "https://www.rtve.es/play/videos/el-colapso/",
+    "image": "colapso.webp"
+  },
+  {
+    "id": 75,
+    "category": "películas / series / documentales",
+    "name": "Argentina, 1985",
+    "autor": "Santiago Mitre",
+    "description": "Inspirada en la historia real del fiscal Julio Strassera, Luis Moreno Ocampo y su joven equipo jurídico que se atrevieron a acusar, contra viento y marea, a contrarreloj y bajo constante amenaza, a los altos mandos de la sangrienta dictadura militar argentina (1976-1983) en el llamado Juicio a las Juntas de mediados de los años 80. Una batalla de David contra Goliat, con los héroes menos esperados.",
+    "recommender": "Vir",
+    "link": "https://www.primevideo.com/detail/0U3X7URM9HIE7L8OYI27ZS77YN/ref=atv_dl_rdr?tag=just0a7-21",
+    "image": "1985.webp"
+  },
+  {
+    "id": 76,
+    "category": "películas / series / documentales",
+    "name": "Modelo 77",
+    "autor": "Alberto Rodríguez",
+    "description": "Cárcel Modelo. Barcelona, 1977. Manuel (Miguel Herrán), un joven contable, encarcelado y pendiente de juicio por cometer un desfalco, se enfrenta a una posible pena de entre 10 y 20 años, un castigo desproporcionado para la cuantía de su delito. Pronto, junto a su compañero de celda, Pino (Javier Gutiérrez), se une a un grupo de presos comunes que se está organizando para exigir una amnistía. Se inicia una guerra por la libertad que hará tambalearse al sistema penitenciario español. Si las cosas están cambiando fuera, dentro también tendrán que hacerlo.",
+    "recommender": "Ana",
+    "link": "https://ver.movistarplus.es/ficha/-lse-modelo-77?id=2165171&id_perfil=OTT&suscripcion=UT-PROMO_BANNER_1,UT-UTE0H,UT-UTXCP,UT-UTXGW&demarcation=19",
+    "image": "77.webp"
+  },
+  {
+    "id": 77,
+    "category": "películas / series / documentales",
+    "name": "Holy Spider",
+    "autor": "Ali Abbasi",
+    "description": "Irán, 2001. Una periodista de Teherán se sumerge en los barrios con peor reputación de la ciudad santa de Mashhad para investigar una serie de feminicidios. Pronto se dará cuenta de que las autoridades locales no tienen ninguna prisa por resolver el asunto. Los crímenes son obra de un solo hombre, que asegura purificar la ciudad de sus pecados y que ataca a prostitutas por la noche.",
+    "recommender": "Meiga",
+    "link": "https://www.justwatch.com/es/pelicula/holy-spider",
+    "image": "holy_spider.webp"
+  },
+  {
+    "id": 78,
+    "category": "libros / artículos",
+    "name": "Temporada de huracanes",
+    "autor": "Fernanda Melchor",
+    "description": "Cruda y desgarradora novela enla que el lector quedará envuelto, atrapado por las palabras y la atmósfera de terrible, aunque gozosa, fatalidad. Un grupo de niños encuentran un cadáver flotando en las aguas turbias de un canal de riego cercano a la ranchería La Matosa. El cuerpo resulta ser de la Bruja, una mujer que heredó dicho oficio de su madre fallecida, y a quienes los pobladores de esa zona rural respetaban y temían. Tras el macabro hallazgo, las sospechas y habladurías recaerán sobre un grupo de muchachos del pueblo, a quienes días antes una vecina vio mientras huían de casa de la hechicera, cargando lo que parecía ser un cuerpo inerte. A partir de ahí, los personajes involucrados en el crimen nos contarán su historia mientras los lectores nos sumergimos en la vida de este lugar acosado por la miseria y el abandono, y donde convergen la violencia del erotismo más oscuro y las sórdidas relaciones de poder.",
+    "recommender": "Meiga",
+    "link": "https://www.todostuslibros.com/libros/temporada-de-huracanes-mapa-de-las-lenguas_978-84-397-3390-4",
+    "image": "temporada_huracanes.webp"
   }
 ]
